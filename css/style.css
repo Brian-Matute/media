@@ -55,8 +55,18 @@ main {
     grid-area: main;
 }
 
-td {
+main li {
     border: 2px solid #555;
+    font-size: 25px;
+    background-color: gainsboro;
+}
+
+#shows p {
+    padding-left: 10px;
+}
+
+#shows img {
+    padding-left: 500px;
 }
 
 footer {
