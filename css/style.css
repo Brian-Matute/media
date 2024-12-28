@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Paprika&display=swap');
-
 body {
-    font-family: "Alegreya", "Helvetica", "Arial", sans-serif;
+    font-family: sans-serif;
     line-height: 1.5;
     font-size: 16px;
     color: #222;
@@ -36,7 +34,7 @@ a:active {
 header {
     grid-area: masthead;
     background-color: #8ba3f8;
-    font-family: "Paprika", "Helvetica", "Arial", sans-serif;
+    font-family: sans-serif;
     margin-top: 20px;
 }
 
