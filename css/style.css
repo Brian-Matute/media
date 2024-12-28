@@ -81,6 +81,10 @@ th {
     text-align: center;
 }
 
+#shows article {
+    text-align: center;
+}
+
 tr:hover {background-color: #dedede;}
 
 footer {
