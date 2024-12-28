@@ -3,7 +3,7 @@ body {
     line-height: 1.5;
     font-size: 16px;
     color: #222;
-    max-width: 1800px;
+    max-width: 2000px;
     display: grid;
     grid-gap: 20px;
     margin: 0 auto;
@@ -71,6 +71,10 @@ th {
 
 #shows p {
     padding-left: 10px;
+}
+
+#intro {
+    text-align: center;
 }
 
 footer {
