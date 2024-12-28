@@ -81,6 +81,10 @@ th {
     text-align: center;
 }
 
+#movies h2, p {
+    text-align: center;
+}
+
 tr:hover {background-color: #dedede;}
 
 footer {
