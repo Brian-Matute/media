@@ -81,6 +81,8 @@ th {
     text-align: center;
 }
 
+tr:hover {background-color: #dedede;}
+
 footer {
     grid-area: footer;
     background-color: #8ba3f8;
