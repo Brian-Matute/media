@@ -60,12 +60,12 @@ table, th, td {
     border-collapse: collapse;
 }
 
-tr:nth-child(even) {background-color: #dedede;}
+tr:nth-child(odd) {background-color: #dedede;}
 
 th {
     background-color: #002c5f;
     padding: 20px;
-    padding-right: 200px;
+    padding-right: 20px;
     color: white;
 }
 
@@ -78,10 +78,6 @@ th {
 }
 
 #shows h2, p {
-    text-align: center;
-}
-
-#shows article {
     text-align: center;
 }
 
