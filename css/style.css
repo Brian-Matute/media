@@ -65,7 +65,7 @@ tr:nth-child(odd) {background-color: #dedede;}
 th {
     background-color: #002c5f;
     padding: 20px;
-    padding-right: 20px;
+    padding-right: 200px;
     color: white;
 }
 
