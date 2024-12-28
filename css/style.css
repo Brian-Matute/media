@@ -77,6 +77,10 @@ th {
     text-align: center;
 }
 
+#shows h2, p {
+    text-align: center;
+}
+
 footer {
     grid-area: footer;
     background-color: #8ba3f8;
