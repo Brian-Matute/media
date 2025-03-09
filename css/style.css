@@ -13,6 +13,30 @@ body {
     "nav      main"
     "footer   footer";
 }
+.search{
+    --padding: 14px:
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background:#f6f6f6;
+}
+
+.search-input {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline:none;
+    border: none;
+    background: transparent;
+    width: 300px;
+}
+
+.search-input::placeholder {
+    color: #000;
+}
 
 a,
 a:link {
