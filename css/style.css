@@ -8,6 +8,7 @@ body {
     grid-gap: 20px;
     margin: 0 auto;
     grid-template-columns: 1fr 10fr;
+    background-color: #002c5f;
     grid-template-areas:
     "masthead masthead"
     "nav      main"
@@ -53,6 +54,7 @@ nav {
 
 main {
     grid-area: main;
+    background-color: white;
 }
 
 table, th, td {
@@ -85,7 +87,7 @@ h2 {
     text-align: center;
 }
 
-tr:hover {background-color: #dedede;}
+tr:hover {background-color: #8ba3f8;}
 
 footer {
     grid-area: footer;
