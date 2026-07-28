@@ -1,226 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Media</title>
-    <link href="css/style.css" rel="stylesheet">
-  </head>
 
-  <body>
+<head>
 
-    <header>
-      <h1>Brian's Media List!</h1>
-    </header>
+<meta charset="UTF-8">
 
-    <nav>
-      <ul>
-          <li><a href="movies.html">Movies</a></li>
-      </ul>
-   </nav>
+<title>Brian's Media Archive</title>
 
-    <main>
-      <section id="intro">
-        <h2>Introduction</h2>
+<link rel="stylesheet" href="css/style.css">
 
-       <p>This website will feature the lists of media I've consumed! Shows, movies, songs, or anything else!</p>
-      </section>
+</head>
 
-      <section id="shows">
-         <h2>Shows</h2>
-         <div class="search-container">
-          <span class="material-symbols-outlined"></span>
-         <input type="text" id="showSearch" placeholder="Search shows...">
-           </div>
-         <p>List of shows I've watched! This list is in tiers and not an exact ranking. Any notes given such as {Season 3}, means that I've only watched up until that point. </p>   
-            <table>
-              <tr>
-                <th>Show Title</th>
-                <th>Rating</th>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt2560140/">Attack on Titan</a></p></td>
-                <td>S</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt0903747/">Breaking Bad</a></p></td>
-                <td>S</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt3032476/">Better Call Saul</a></p></td>
-                <td>S</td>
-              </tr>
-              <tr>
-               <td><p><a href="https://www.imdb.com/title/tt0434706/">Monster (2004)</a></p></td>
-               <td>A+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt11280740/">Severance</a></p></td>
-                <td>A+</td>
-               </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt2098220/">Hunter X Hunter (2011)</a></p></td>
-                <td>A+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt1355642/">Fullmetal Alchemist: Brotherhood</a></p></td>
-                <td>A+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt0877057/">Death Note (2006)</a></p></td>
-                <td>A+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt2442560/">Peaky Blinders</a></p></td>
-                <td>A</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt1910272/">Steins;Gate</a></p></td>
-                <td>A</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt1190634/">The Boys</a></p></td>
-                <td>A</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt0458290/">Star Wars: The Clone Wars (2008)</a></p></td>
-                <td>A</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt4574334/">Stranger Things</a></p></td>
-                <td>A-</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt10233448/">Vinland Saga</a></p></td>
-                <td>A-</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt6741278/">Invincible</a></p></td>
-                <td>A-</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt9140554/">Loki</a></p></td>
-                <td>A-</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt9253284/">Andor</a></p></td>
-                <td>A-</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt1877889/">Teenage Mutant Ninja Turtles (2012)</a></p></td>
-                <td>A-</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt0994314/">Code Geass</a></p></td>
-                <td>B+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt12590266/">Cyberpunk: Edgerunners</a></p></td>
-                <td>B+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt13159924/">Gen V</a></p></td>
-                <td>B+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt10919420/">Squid Game</a></p></td>
-                <td>B+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt8111088/">The Mandalorian</a></p></td>
-                <td>B</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt2861424/">Rick and Morty {Season 5}</a></p></td>
-                <td>B</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt9140560/">WandaVision</a></p></td>
-                <td>B-</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt3581920/">The Last of Us (2023)</a></p></td>
-                <td>B-</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt9679542/">Dr. Stone {Season 2}</a></p></td>
-                <td>C+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt5514358/">Steins;Gate 0</a></p></td>
-                <td>C+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt2359704/">JoJo's Bizarre Adventure {Part 3}</a></p></td>
-                <td>C+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt0421357/">Fullmetal Alchemist (2003) {66% Watched}</a></p></td>
-                <td>C+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt9208876/">The Falcon and the Winter Soldier</a></p></td>
-                <td>C+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt26737616/">Pluto {62% Watched}</a></p></td>
-                <td>C</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt0112159/">Neon Genesis Evangelion {42% Watched}</a></p></td>
-                <td>C</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt8466564/">Obi-Wan Kenobi</a></p></td>
-                <td>C</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt10160804/">Hawkeye</a></p></td>
-                <td>C-</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt13668894/">The Book of Boba Fett</a></p></td>
-                <td>C-</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt10234724/">Moon Knight</a></p></td>
-                <td>D+</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt10857164/">Ms. Marvel {33% Watched}</a></p></td>
-                <td>F</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt10857160/">She-Hulk: Attorney at Law {33% Watched}</a></p></td>
-                <td>F</td>
-              </tr>
-              <tr>
-                <td><p><a href="https://www.imdb.com/title/tt10168312/">What If...? {Season 1}</a></p></td>
-                <td>F</td>
-              </tr>
-            </table>
-      </section>
-    </main>
 
-    <footer>
-      <p><small>Note: All rights to any images or titles from another source used on this page belong to the respective owner. Used here for informational/ creative purposes only. I do not own nor claim to own the rights to any of the images shared.</small></p>
-    </footer>
-    <script>
-        const searchInput = document.getElementById("showSearch");
-        const showRows = document.querySelectorAll("#shows table tr");
+<body>
 
-        searchInput.addEventListener("keyup", function() {
-        let searchValue = searchInput.value.toLowerCase();
 
-        showRows.forEach(row => {
-        let showName = row.textContent.toLowerCase();
+<header>
 
-        if (showName.includes(searchValue)) {
-            row.style.display = "";
-        } else {
-            row.style.display = "none";
-        }
-    });
-});
-</script>
-  </body>
+<h1>Brian's Media Archive</h1>
+
+<p>
+Movies, shows, and stories worth remembering.
+</p>
+
+</header>
+
+
+
+<section class="controls">
+
+<input 
+id="search"
+placeholder="Search media..."
+>
+
+
+<select id="filter">
+
+<option value="All">
+All Media
+</option>
+
+<option value="Movie">
+Movies
+</option>
+
+<option value="Show">
+Shows
+</option>
+
+<option value="S">
+S Tier
+</option>
+
+<option value="Favorites">
+Favorites
+</option>
+
+<option value="Star Wars">
+Star Wars
+</option>
+
+</select>
+
+
+</section>
+
+
+
+<main>
+
+<div id="media-grid"></div>
+
+</main>
+
+<footer>
+
+<p>
+Movie and television artwork, logos, and titles displayed on this site belong to their respective copyright holders. Images are used for informational, archival, and review purposes only. This website is a personal media archive and is not affiliated with or endorsed by any studio, network, or distributor.
+</p>
+
+</footer>
+
+
+<script src="js/app.js"></script>
+
+
+</body>
+
 </html>

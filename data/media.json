@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Goodfellas",
+    "type": "Movie",
+    "categories": [
+      "Crime",
+      "Favorites"
+    ],
+    "year": "1990",
+    "rating": "10/10",
+    "tier": "S",
+    "genre": "Crime • Drama",
+    "poster": "goodfellas.jpg.jpg",
+    "review": "One of the greatest crime films ever made. Scorsese's direction, the performances, and the rise-and-fall story make this an all-time classic."
+  },
+
+  {
+    "title": "Breaking Bad",
+    "type": "Show",
+    "categories": [
+      "Drama",
+      "Favorites"
+    ],
+    "year": "2008",
+    "rating": "10/10",
+    "tier": "S",
+    "genre": "Crime • Drama",
+    "poster": "breakingbad.jpg",
+    "review": "A legendary transformation story with some of the best character writing in television."
+  },
+
+  {
+    "title": "Star Wars: Revenge of the Sith",
+    "type": "Movie",
+    "categories": [
+      "Star Wars"
+    ],
+    "year": "2005",
+    "rating": "9/10",
+    "tier": "A",
+    "genre": "Sci-Fi",
+    "poster": "revenge.jpg",
+    "review": "One of the most emotional Star Wars stories."
+  }
+]
