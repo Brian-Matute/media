@@ -1,49 +1,83 @@
-let media = [];
+let allMedia = [];
+
+
+const container = document.getElementById("media-grid");
+
+const searchBar = document.getElementById("searchBar");
+
+const typeFilter = document.getElementById("typeFilter");
+
 
 
 fetch("data/media.json")
 
+
 .then(response => response.json())
 
-.then(data => {
 
-media = data;
+.then(media => {
 
-displayMedia(media);
+
+    allMedia = media;
+
+
+    displayMedia(allMedia);
+
+
+})
+
+
+.catch(error => {
+
+
+console.error("JSON ERROR:", error);
+
 
 });
 
 
 
 
-function displayMedia(items){
 
-const grid = document.getElementById("media-grid");
-
-grid.innerHTML = "";
+function displayMedia(media) {
 
 
-items.forEach(item => {
+container.innerHTML = "";
 
 
-grid.innerHTML += `
+
+media.forEach(item => {
 
 
-<div class="card">
+
+const card = document.createElement("div");
 
 
-<img src="images/posters/${item.poster}">
+card.classList.add("card");
 
 
-<div class="content">
 
 
-<h2>${item.title}</h2>
+
+card.innerHTML = `
+
+
+<img src="images/posters/${item.poster}" 
+alt="${item.title} poster">
+
+
+
+<div class="card-info">
 
 
 <h3>
-${item.type} • ${item.year}
+${item.title}
 </h3>
+
+
+<p>
+${item.year} • ${item.type}
+</p>
 
 
 <p>
@@ -52,21 +86,9 @@ ${item.type} • ${item.year}
 
 
 <p>
-🏆 Tier: ${item.tier}
+🏆 ${item.tier} Tier
 </p>
 
-
-<p>
-${item.genre}
-</p>
-
-
-<p>
-${item.review}
-</p>
-
-
-</div>
 
 
 </div>
@@ -75,23 +97,33 @@ ${item.review}
 `;
 
 
+
+
+
+card.onclick = function(){
+
+
+window.location.href =
+`details.html?id=${item.id}`;
+
+
+};
+
+
+
+
+
+container.appendChild(card);
+
+
+
 });
+
 
 
 }
 
 
-
-
-document
-.getElementById("search")
-.addEventListener("input", filterMedia);
-
-
-
-document
-.getElementById("filter")
-.addEventListener("change", filterMedia);
 
 
 
@@ -99,57 +131,73 @@ document
 function filterMedia(){
 
 
-let search =
-document
-.getElementById("search")
-.value
-.toLowerCase();
+
+const searchTerm =
+searchBar.value.toLowerCase();
 
 
 
-let category =
-document
-.getElementById("filter")
-.value;
+const selectedType =
+typeFilter.value;
 
 
 
-let results =
-media.filter(item => {
 
 
-let matchesSearch =
+const filteredMedia = allMedia.filter(item => {
+
+
+
+const matchesSearch =
+
 item.title
 .toLowerCase()
-.includes(search);
+.includes(searchTerm);
 
 
 
-let matchesCategory = true;
+
+
+const matchesType =
+
+selectedType === "all"
+
+||
+
+item.type === selectedType;
 
 
 
-if(category !== "All"){
 
 
-matchesCategory =
-item.type === category ||
-item.tier === category ||
-item.categories.includes(category);
+return matchesSearch && matchesType;
 
-
-}
-
-
-
-return matchesSearch && matchesCategory;
 
 
 });
 
 
 
-displayMedia(results);
+
+
+displayMedia(filteredMedia);
+
 
 
 }
+
+
+
+
+
+searchBar.addEventListener(
+"input",
+filterMedia
+);
+
+
+
+typeFilter.addEventListener(
+"change",
+filterMedia
+);
