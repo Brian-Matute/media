@@ -27,6 +27,10 @@
 
       <section id="shows">
          <h2>Shows</h2>
+         <div class="search-container">
+          <span class="material-symbols-outlined"></span>
+         <input type="text" id="showSearch" placeholder="Search shows...">
+           </div>
          <p>List of shows I've watched! This list is in tiers and not an exact ranking. Any notes given such as {Season 3}, means that I've only watched up until that point. </p>   
             <table>
               <tr>
@@ -200,6 +204,23 @@
     <footer>
       <p><small>Note: All rights to any images or titles from another source used on this page belong to the respective owner. Used here for informational/ creative purposes only. I do not own nor claim to own the rights to any of the images shared.</small></p>
     </footer>
+    <script>
+        const searchInput = document.getElementById("showSearch");
+        const showRows = document.querySelectorAll("#shows table tr");
 
+        searchInput.addEventListener("keyup", function() {
+        let searchValue = searchInput.value.toLowerCase();
+
+        showRows.forEach(row => {
+        let showName = row.textContent.toLowerCase();
+
+        if (showName.includes(searchValue)) {
+            row.style.display = "";
+        } else {
+            row.style.display = "none";
+        }
+    });
+});
+</script>
   </body>
 </html>

@@ -22,7 +22,10 @@
     <main>
       <section id="movies">
          <h2>Movies</h2>
-
+         <div class="search-container">
+         <span class="material-symbols-outlined">search</span>
+         <input type="text" id="movieSearch" placeholder="Search movies...">
+         </div>
          <p>List of movies I've watched! This list is in tiers and not an exact ranking.</p>
          <p>S tier represents masterpieces. A tier represents amazing films. B tier represents films I thoroughly enjoy. C tier represents solid or decent movies. D and F represent the bottom of the barrel.</p>
             <table>
@@ -621,6 +624,23 @@
     <footer>
       <p><small>Note: All rights to any images or titles from another source used on this page belong to the respective owner. Used here for informational/ creative purposes only. I do not own nor claim to own the rights to any of the images shared.</a>.</small></p>
     </footer>
+    <script>
+        const searchInput = document.getElementById("movieSearch");
+        const movieRows = document.querySelectorAll("#movies table tr");
 
+       searchInput.addEventListener("keyup", function() {
+       let searchValue = searchInput.value.toLowerCase();
+
+        movieRows.forEach(row => {
+        let movieName = row.textContent.toLowerCase();
+
+        if (movieName.includes(searchValue)) {
+            row.style.display = "";
+        } else {
+            row.style.display = "none";
+        }
+    });
+});
+</script>
   </body>
 </html>
