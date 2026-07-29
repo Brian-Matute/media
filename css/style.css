@@ -580,3 +580,22 @@ line-height:1.6;
 
 
 }
+
+.detail-info a {
+
+color:#60a5fa;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+.detail-info a:hover {
+
+text-decoration:underline;
+
+color:white;
+
+}

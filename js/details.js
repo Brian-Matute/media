@@ -10,82 +10,122 @@ fetch("data/media.json")
 .then(media => {
 
 
-const item = media.find(movie => movie.id === id);
+    const item = media.find(movie => movie.id === id);
 
 
-const container = document.getElementById("details");
+    const container = document.getElementById("details");
 
 
-container.innerHTML = `
+    container.innerHTML = `
 
 
-<div class="detail-card">
+    <div class="detail-card">
 
 
-<img src="images/posters/${item.poster}">
-
-
-<div class="detail-info">
-
-
-<h1>${item.title}</h1>
-
-
-<h3>
-${item.year} • ${item.type}
-</h3>
-
-
-<h2>
-⭐ ${item.rating}
-</h2>
-
-
-<h2>
-🏆 ${item.tier} Tier
-</h2>
+        <img 
+        src="images/posters/${item.poster}" 
+        alt="${item.title} poster"
+        >
 
 
 
-<h3>My Thoughts</h3>
-
-<p>
-${item.review}
-</p>
+        <div class="detail-info">
 
 
-
-<h3>Favorite Scene</h3>
-
-<p>
-${item.favoriteScene}
-</p>
+            <h1>${item.title}</h1>
 
 
-
-<h3>Why It's Special</h3>
-
-<p>
-${item.whyItsSpecial}
-</p>
+            <h3>
+            ${item.year} • ${item.type}
+            </h3>
 
 
-
-<h3>Would I Rewatch?</h3>
-
-<p>
-${item.rewatch}
-</p>
+            <h2>
+            ⭐ ${item.rating}
+            </h2>
 
 
+            <h2>
+            🏆 ${item.tier} Tier
+            </h2>
 
-</div>
+            <h3>
+           📅 Date Watched
+            </h3>
+
+           <p>
+           ${item.dateWatched || "Not added yet"}
+           </p>
 
 
-</div>
+            <h3>
+            Genre
+            </h3>
+
+            <p>
+            ${item.genre || "N/A"}
+            </p>
 
 
-`;
 
+
+            <h3>
+            Director / Creator
+            </h3>
+
+            <p>
+            ${item.director || "N/A"}
+            </p>
+
+
+
+
+            <h3>
+            My Thoughts
+            </h3>
+
+
+            <p>
+            ${item.review}
+            </p>
+
+
+
+
+            <h3>
+            Rotten Tomatoes/ IMDB:
+            </h3>
+
+
+            <p>
+
+            <a 
+            href="${item.rottenTomatoes}" 
+            target="_blank">
+            
+            View Critic's Page
+            
+            </a>
+
+            </p>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+    `;
+
+
+})
+
+
+.catch(error => {
+
+console.error("DETAIL PAGE ERROR:", error);
 
 });

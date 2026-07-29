@@ -1,18 +1,18 @@
 [
   {
- "id": "goodfellas",
-    "title": "Goodfellas",
-    "type": "Movie",
-    "year": "1990",
-    "rating": "10/10",
-    "tier": "S",
-    "genre": "Crime • Drama",
-    "poster": "goodfellas.jpg.jpg",
-    "director": "Martin Scorsese",
-    "review": "One of the greatest crime films ever made. The pacing, performances, and storytelling are nearly perfect.",
-    "favoriteScene": "The Copacabana tracking shot.",
-    "whyItsSpecial": "A perfect example of visual storytelling and character development.",
-    "rewatch": "Absolutely"
+"id":"goodfellas",
+"title":"Goodfellas",
+"type":"Movie",
+"year":"1990",
+"rating":"10/10",
+"tier":"S",
+"genre":"Crime • Drama",
+"poster":"goodfellas.jpg.jpg",
+"director":"Martin Scorsese",
+
+"review":"One of the greatest crime films ever made. The performances, editing, and storytelling are incredible.",
+
+"rottenTomatoes":"https://www.rottentomatoes.com/m/1032176-goodfellas"
   },
 
   {
