@@ -367,7 +367,8 @@ margin:40px auto;
 
 
 #searchBar,
-#typeFilter {
+#typeFilter 
+#sortFilter {
 
 
 padding:15px 20px;
@@ -404,12 +405,12 @@ width:350px;
 
 
 
-#typeFilter {
+#typeFilter,
+#sortFilter {
 
 cursor:pointer;
 
 }
-
 
 
 

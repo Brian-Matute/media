@@ -7,6 +7,8 @@ const searchBar = document.getElementById("searchBar");
 
 const typeFilter = document.getElementById("typeFilter");
 
+const sortFilter = document.getElementById("sortFilter");
+
 
 
 fetch("data/media.json")
@@ -176,7 +178,96 @@ return matchesSearch && matchesType;
 
 });
 
+const selectedSort = sortFilter.value;
 
+
+if(selectedSort === "titleAZ") {
+
+    filteredMedia.sort((a,b) =>
+        a.title.localeCompare(b.title)
+    );
+
+}
+
+
+if(selectedSort === "titleZA") {
+
+    filteredMedia.sort((a,b) =>
+        b.title.localeCompare(a.title)
+    );
+
+}
+
+
+
+if(selectedSort === "ratingHigh") {
+
+    filteredMedia.sort((a,b) =>
+        Number(b.rating) - Number(a.rating)
+    );
+
+}
+
+
+
+if(selectedSort === "ratingLow") {
+
+    filteredMedia.sort((a,b) =>
+        Number(a.rating) - Number(b.rating)
+    );
+
+}
+
+
+
+if(selectedSort === "yearNew") {
+
+    filteredMedia.sort((a,b) =>
+        Number(b.year) - Number(a.year)
+    );
+
+}
+
+
+
+if(selectedSort === "yearOld") {
+
+    filteredMedia.sort((a,b) =>
+        Number(a.year) - Number(b.year)
+    );
+
+}
+
+
+
+if(selectedSort === "tier") {
+
+
+const tierOrder = {
+
+"S":1,
+
+"A":2,
+
+"B":3,
+
+"C":4,
+
+"D":5,
+
+"F":6
+
+};
+
+
+filteredMedia.sort((a,b) =>
+
+tierOrder[a.tier] - tierOrder[b.tier]
+
+);
+
+
+}
 
 
 
@@ -198,6 +289,11 @@ filterMedia
 
 
 typeFilter.addEventListener(
+"change",
+filterMedia
+);
+
+sortFilter.addEventListener(
 "change",
 filterMedia
 );
