@@ -21,7 +21,7 @@
 "year":"2013-2023",
 "rating":"99",
 "tier":"S",
-"genre":"Actio Epic",
+"genre":"Action Epic",
 "poster":"aot.jpg",
 "director":"Hajime Isayama",
 "dateWatched":"Fall 2022",
@@ -134,18 +134,173 @@
 "rottenTomatoes":"https://www.rottentomatoes.com/m/spider_man_no_way_home"
 },
 
+{
+"id":"spiderman-2",
+"title":"Spider-Man 2",
+"type":"Movie",
+"year":"2004",
+"rating":"97",
+"tier":"S",
+"genre":"Superhero • Action • Drama",
+"poster":"spiderman2.jpg",
+"director":"Sam Raimi",
+"dateWatched":"2005",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/spiderman_2"
+},
 
 
+{
+"id":"spiderman-3",
+"title":"Spider-Man 3",
+"type":"Movie",
+"year":"2007",
+"rating":"78",
+"tier":"C+",
+"genre":"Superhero • Action • Drama",
+"poster":"spiderman3.jpg",
+"director":"Sam Raimi",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/spiderman_3"
+},
 
 
+{
+"id":"amazing-spiderman",
+"title":"The Amazing Spider-Man",
+"type":"Movie",
+"year":"2012",
+"rating":"79",
+"tier":"C+",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"amazing-spiderman.jpg",
+"director":"Marc Webb",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_amazing_spiderman"
+},
 
 
+{
+"id":"amazing-spiderman-2",
+"title":"The Amazing Spider-Man 2",
+"type":"Movie",
+"year":"2014",
+"rating":"71",
+"tier":"C-",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"amazing-spiderman2.jpg",
+"director":"Marc Webb",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_amazing_spiderman_2"
+},
 
+{
+"id":"spiderman-homecoming",
+"title":"Spider-Man: Homecoming",
+"type":"Movie",
+"year":"2017",
+"rating":"94",
+"tier":"A",
+"genre":"Superhero • Action • Comedy",
+"poster":"homecoming.jpg",
+"director":"Jon Watts",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/spider_man_homecoming"
+},
 
+{
+"id":"spiderman-far-from-home",
+"title":"Spider-Man: Far From Home",
+"type":"Movie",
+"year":"2019",
+"rating":"91",
+"tier":"A-",
+"genre":"Superhero • Action • Adventure",
+"poster":"far-from-home.jpg",
+"director":"Jon Watts",
+"dateWatched":"July 2019",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/spider_man_far_from_home"
+},
 
+{
+"id":"spider-man-into-the-spider-verse",
+"title":"Spider-Man: Into the Spider-Verse",
+"type":"Movie",
+"year":"2018",
+"rating":"96",
+"tier":"A",
+"genre":"Animation • Superhero • Adventure",
+"poster":"into-spiderverse.jpg",
+"director":"Bob Persichetti • Peter Ramsey • Rodney Rothman",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/spider_man_into_the_spider_verse"
+},
 
+{
+"id":"spider-man-across-the-spider-verse",
+"title":"Spider-Man: Across the Spider-Verse",
+"type":"Movie",
+"year":"2023",
+"rating":"79",
+"tier":"C+",
+"genre":"Animation • Superhero • Adventure",
+"poster":"across-spiderverse.jpg",
+"director":"Joaquim Dos Santos • Kemp Powers • Justin K. Thompson",
+"dateWatched":"June 2023",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse"
+},
 
+{
+"id":"venom",
+"title":"Venom",
+"type":"Movie",
+"year":"2018",
+"rating":"72",
+"tier":"C-",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"venom.webp",
+"director":"Ruben Fleischer",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/venom_2018"
+},
 
+{
+"id":"venom-let-there-be-carnage",
+"title":"Venom: Let There Be Carnage",
+"type":"Movie",
+"year":"2021",
+"rating":"74",
+"tier":"B",
+"genre":"Superhero • Action • Comedy",
+"poster":"venom2.jpg",
+"director":"Andy Serkis",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/venom_let_there_be_carnage"
+},
+
+{
+"id":"good-will-hunting",
+"title":"Good Will Hunting",
+"type":"Movie",
+"year":"1997",
+"rating":"92",
+"tier":"A-",
+"genre":"Drama",
+"poster":"goodwillhunting.jpg",
+"director":"Gus Van Sant",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/good_will_hunting"
+},
 
 {
 "id":"revenge-of-the-sith",
