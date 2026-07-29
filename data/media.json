@@ -721,6 +721,156 @@
 "dateWatched":"March 2022",
 "review":"/",
 "rottenTomatoes":"https://www.rottentomatoes.com/m/the_batman"
+},
+
+{
+"id":"joker",
+"title":"Joker",
+"type":"Movie",
+"year":"2019",
+"rating":"95",
+"tier":"A",
+"genre":"Psychological • Crime • Drama",
+"poster":"joker.jpg",
+"director":"Todd Phillips",
+"dateWatched":"Fall 2019",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/joker_2019"
+},
+
+{
+"id":"joker-folie-a-deux",
+"title":"Joker: Folie à Deux",
+"type":"Movie",
+"year":"2024",
+"rating":"49",
+"tier":"F+",
+"genre":"Psychological • Crime • Musical • Drama",
+"poster":"joker2.jpg",
+"director":"Todd Phillips",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/joker_folie_a_deux"
+},
+
+{
+"id":"iron-man",
+"title":"Iron Man",
+"type":"Movie",
+"year":"2008",
+"rating":"90",
+"tier":"A-",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"ironman.jpg",
+"director":"Jon Favreau",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/iron_man"
+},
+
+{
+"id":"the-incredible-hulk",
+"title":"The Incredible Hulk",
+"type":"Movie",
+"year":"2008",
+"rating":"77",
+"tier":"C+",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"incrediblehulk.jpg",
+"director":"Louis Leterrier",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_incredible_hulk"
+},
+
+{
+"id":"iron-man-2",
+"title":"Iron Man 2",
+"type":"Movie",
+"year":"2010",
+"rating":"84",
+"tier":"B",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"ironman2.jpg",
+"director":"Jon Favreau",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/iron_man_2"
+},
+
+{
+"id":"thor",
+"title":"Thor",
+"type":"Movie",
+"year":"2011",
+"rating":"79",
+"tier":"C+",
+"genre":"Superhero • Action • Fantasy",
+"poster":"thor.jpg",
+"director":"Kenneth Branagh",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/thor"
+},
+
+{
+"id":"captain-america-the-first-avenger",
+"title":"Captain America: The First Avenger",
+"type":"Movie",
+"year":"2011",
+"rating":"84",
+"tier":"B",
+"genre":"Superhero • Action • Adventure",
+"poster":"captainamerica.jpg",
+"director":"Joe Johnston",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/captain_america_the_first_avenger"
+},
+
+{
+"id":"the-avengers",
+"title":"The Avengers",
+"type":"Movie",
+"year":"2012",
+"rating":"93",
+"tier":"A-",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"avengers.jpg",
+"director":"Joss Whedon",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/marvels_the_avengers"
+},
+
+{
+"id":"iron-man-3",
+"title":"Iron Man 3",
+"type":"Movie",
+"year":"2013",
+"rating":"85",
+"tier":"B",
+"genre":"Superhero • Action • Comedy",
+"poster":"ironman3.jpg",
+"director":"Shane Black",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/iron_man_3"
+},
+
+{
+"id":"thor-the-dark-world",
+"title":"Thor: The Dark World",
+"type":"Movie",
+"year":"2013",
+"rating":"72",
+"tier":"C-",
+"genre":"Superhero • Action • Fantasy",
+"poster":"thordarkworld.jpg",
+"director":"Alan Taylor",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/thor_the_dark_world"
 }
 
 
