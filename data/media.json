@@ -450,15 +450,278 @@
 "dateWatched":"",
 "review":"/",
 "rottenTomatoes":"https://www.rottentomatoes.com/m/sixth_sense"
+},
+
+{
+"id":"avengers-endgame",
+"title":"Avengers: Endgame",
+"type":"Movie",
+"year":"2019",
+"rating":"99",
+"tier":"S",
+"genre":"Superhero • Action • Sci-Fi • Adventure",
+"poster":"endgame.webp",
+"director":"Anthony Russo • Joe Russo",
+"dateWatched":"April 2019",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/avengers_endgame"
+},
+
+{
+"id":"avengers-infinity-war",
+"title":"Avengers: Infinity War",
+"type":"Movie",
+"year":"2018",
+"rating":"99",
+"tier":"S",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"infinitywar.jpg",
+"director":"Anthony Russo • Joe Russo",
+"dateWatched":"April 2018",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/avengers_infinity_war"
+},
+
+{
+"id":"oppenheimer",
+"title":"Oppenheimer",
+"type":"Movie",
+"year":"2023",
+"rating":"96",
+"tier":"A",
+"genre":"Biography • Drama • History",
+"poster":"oppenheimer.jpg",
+"director":"Christopher Nolan",
+"dateWatched":"July 2023",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/oppenheimer_2023"
+},
+
+{
+"id":"peaky-blinders-the-immortal-man",
+"title":"Peaky Blinders: The Immortal Man",
+"type":"Movie",
+"year":"2026",
+"rating":"78",
+"tier":"C+",
+"genre":"Crime • Drama • Thriller",
+"poster":"peakyimmortalman.jpg",
+"director":"Tom Harper",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/peaky_blinders_the_immortal_man"
+},
+
+{
+"id":"reservoir-dogs",
+"title":"Reservoir Dogs",
+"type":"Movie",
+"year":"1992",
+"rating":"93",
+"tier":"A-",
+"genre":"Crime • Thriller • Drama",
+"poster":"reservoirdogs.jpg",
+"director":"Quentin Tarantino",
+"dateWatched":"Spring 2023",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/reservoir_dogs"
+},
+
+{
+"id":"pulp-fiction",
+"title":"Pulp Fiction",
+"type":"Movie",
+"year":"1994",
+"rating":"92",
+"tier":"A-",
+"genre":"Crime • Drama • Thriller",
+"poster":"pulpfiction.jpg",
+"director":"Quentin Tarantino",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/pulp_fiction"
+},
+
+{
+"id":"inglourious-basterds",
+"title":"Inglourious Basterds",
+"type":"Movie",
+"year":"2009",
+"rating":"97",
+"tier":"S",
+"genre":"War • Drama • Thriller",
+"poster":"inglouriousbasterds.jpg",
+"director":"Quentin Tarantino",
+"dateWatched":"Summer 2025",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/inglourious_basterds"
+},
+
+{
+"id":"fellowship-extended",
+"title":"The Lord of the Rings: The Fellowship of the Ring (Extended Edition)",
+"type":"Movie",
+"year":"2001",
+"rating":"94",
+"tier":"A",
+"genre":"Fantasy • Adventure • Drama",
+"poster":"fellowship.jpg",
+"director":"Peter Jackson",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/lord_of_the_rings_the_fellowship_of_the_ring"
+},
+
+
+{
+"id":"two-towers-extended",
+"title":"The Lord of the Rings: The Two Towers (Extended Edition)",
+"type":"Movie",
+"year":"2002",
+"rating":"88",
+"tier":"B+",
+"genre":"Fantasy • Adventure • Drama",
+"poster":"twotowers.jpg",
+"director":"Peter Jackson",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/lord_of_the_rings_the_two_towers"
+},
+
+{
+"id":"return-king-extended",
+"title":"The Lord of the Rings: The Return of the King (Extended Edition)",
+"type":"Movie",
+"year":"2003",
+"rating":"96",
+"tier":"A",
+"genre":"Fantasy • Adventure • Drama",
+"poster":"returnoftheking.jpg",
+"director":"Peter Jackson",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/lord_of_the_rings_the_return_of_the_king"
+},
+
+{
+"id":"project-x",
+"title":"Project X",
+"type":"Movie",
+"year":"2012",
+"rating":"64",
+"tier":"D",
+"genre":"Comedy • Teen • Party",
+"poster":"projectx.jpg",
+"director":"Nima Nourizadeh",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/project_x_2012"
+},
+
+{
+"id":"the-hangover",
+"title":"The Hangover",
+"type":"Movie",
+"year":"2009",
+"rating":"79",
+"tier":"C+",
+"genre":"Comedy • Adventure",
+"poster":"hangover.jpg",
+"director":"Todd Phillips",
+"dateWatched":"August 2025",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_hangover"
+},
+
+{
+"id":"batman-begins",
+"title":"Batman Begins",
+"type":"Movie",
+"year":"2005",
+"rating":"84",
+"tier":"B",
+"genre":"Superhero • Action • Drama",
+"poster":"batmanbegins.jpg",
+"director":"Christopher Nolan",
+"dateWatched":"Summer 2020",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/batman_begins"
+},
+
+{
+"id":"the-dark-knight",
+"title":"The Dark Knight",
+"type":"Movie",
+"year":"2008",
+"rating":"99",
+"tier":"S",
+"genre":"Superhero • Crime • Thriller",
+"poster":"darkknight.jpg",
+"director":"Christopher Nolan",
+"dateWatched":"Summer 2020",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_dark_knight"
+},
+
+{
+"id":"the-dark-knight-rises",
+"title":"The Dark Knight Rises",
+"type":"Movie",
+"year":"2012",
+"rating":"86",
+"tier":"A",
+"genre":"Superhero • Action • Drama",
+"poster":"darkknightrises.jpg",
+"director":"Christopher Nolan",
+"dateWatched":"Summer 2020",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_dark_knight_rises"
+},
+
+{
+"id":"inception",
+"title":"Inception",
+"type":"Movie",
+"year":"2010",
+"rating":"94",
+"tier":"S",
+"genre":"Sci-Fi • Action • Thriller",
+"poster":"inception.webp",
+"director":"Christopher Nolan",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/inception"
+},
+
+{
+"id":"interstellar",
+"title":"Interstellar",
+"type":"Movie",
+"year":"2014",
+"rating":"96",
+"tier":"S",
+"genre":"Sci-Fi • Drama • Adventure",
+"poster":"interstellar.avif",
+"director":"Christopher Nolan",
+"dateWatched":"Summer 2021",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/interstellar_2014"
+},
+
+{
+"id":"the-batman",
+"title":"The Batman",
+"type":"Movie",
+"year":"2022",
+"rating":"95",
+"tier":"A",
+"genre":"Superhero • Crime • Thriller",
+"poster":"thebatman.webp",
+"director":"Matt Reeves",
+"dateWatched":"March 2022",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_batman"
 }
-
-
-
-
-
-
-
-
 
 
 
