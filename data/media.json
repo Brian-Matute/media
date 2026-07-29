@@ -1,48 +1,46 @@
 [
-    {
-"id":"breaking bad",
+{
+"id":"breaking-bad",
 "title":"Breaking Bad",
 "type":"Show",
 "year":"2008-2013",
-"rating":"99",
+"rating":"9.9/10",
 "tier":"S",
 "genre":"Crime • Drama",
 "poster":"bb.jpg",
 "director":"Vince Gilligan",
 "dateWatched":"Winter 2021",
-"review":" ",
-"rottenTomatoes":"https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_0_tt_7_nm_0_in_1_q_breaking%20bad"
-  },
-  
-  {
+"review":"",
+"rottenTomatoes":"https://www.rottentomatoes.com/tv/breaking_bad"
+},
+
+{
 "id":"goodfellas",
 "title":"Goodfellas",
 "type":"Movie",
 "year":"1990",
-"rating":"99",
+"rating":"9.9/10",
 "tier":"S",
 "genre":"Crime • Drama",
 "poster":"goodfellas.jpg.jpg",
 "director":"Martin Scorsese",
-
 "dateWatched":"Summer 2021",
-
 "review":"One of the greatest crime films ever made. The performances, editing, and storytelling are incredible.",
-
 "rottenTomatoes":"https://www.rottentomatoes.com/m/1032176-goodfellas"
-  },
+},
 
-  {
-    "title": "Star Wars: Revenge of the Sith",
-    "type": "Movie",
-    "categories": [
-      "Star Wars"
-    ],
-    "year": "2005",
-    "rating": "9/10",
-    "tier": "A",
-    "genre": "Sci-Fi",
-    "poster": "revenge.jpg",
-    "review": "One of the most emotional Star Wars stories."
-  }
+{
+"id":"revenge-of-the-sith",
+"title":"Star Wars: Revenge of the Sith",
+"type":"Movie",
+"year":"2005",
+"rating":"9/10",
+"tier":"A",
+"genre":"Sci-Fi",
+"poster":"revenge.jpg",
+"director":"George Lucas",
+"dateWatched":"",
+"review":"One of the most emotional Star Wars stories.",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/star_wars_episode_iii_revenge_of_the_sith"
+}
 ]
