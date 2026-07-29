@@ -187,7 +187,7 @@
 "title":"The Amazing Spider-Man 2",
 "type":"Movie",
 "year":"2014",
-"rating":"71",
+"rating":"74",
 "tier":"C-",
 "genre":"Superhero • Action • Sci-Fi",
 "poster":"amazing-spiderman2.jpg",
@@ -297,23 +297,407 @@
 "genre":"Drama",
 "poster":"goodwillhunting.jpg",
 "director":"Gus Van Sant",
-"dateWatched":"",
+"dateWatched":"July 2026",
 "review":"/",
 "rottenTomatoes":"https://www.rottentomatoes.com/m/good_will_hunting"
 },
 
 {
+"id":"marty-supreme",
+"title":"Marty Supreme",
+"type":"Movie",
+"year":"2025",
+"rating":"96",
+"tier":"A",
+"genre":"Sports • Comedy • Drama",
+"poster":"martysupreme.webp",
+"director":"Josh Safdie",
+"dateWatched":"Spring 2026",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/search?search=Marty%20Supreme"
+},
+
+{
 "id":"revenge-of-the-sith",
-"title":"Star Wars: Revenge of the Sith",
+"title":"Star Wars: Episode III - Revenge of the Sith",
 "type":"Movie",
 "year":"2005",
-"rating":"9/10",
+"rating":"94",
 "tier":"A",
 "genre":"Sci-Fi",
 "poster":"revenge.jpg",
 "director":"George Lucas",
-"dateWatched":"",
-"review":"One of the most emotional Star Wars stories.",
+"dateWatched":"A long time ago...",
+"review":"",
 "rottenTomatoes":"https://www.rottentomatoes.com/m/star_wars_episode_iii_revenge_of_the_sith"
+},
+
+{
+"id":"attack-of-the-clones",
+"title":"Star Wars: Episode II - Attack of the Clones",
+"type":"Movie",
+"year":"2002",
+"rating":"72",
+"tier":"C",
+"genre":"Sci-Fi • Adventure",
+"poster":"attackoftheclones.jpg",
+"director":"George Lucas",
+"dateWatched":"A long time ago...",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/star_wars_episode_ii_attack_of_the_clones"
+},
+
+{
+"id":"the-phantom-menace",
+"title":"Star Wars: Episode I - The Phantom Menace",
+"type":"Movie",
+"year":"1999",
+"rating":"72",
+"tier":"C-",
+"genre":"Sci-Fi • Adventure",
+"poster":"phantommenace.jpg",
+"director":"George Lucas",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/star_wars_episode_i_the_phantom_menace"
+},
+
+{
+"id":"clone-wars-movie",
+"title":"Star Wars: The Clone Wars",
+"type":"Movie",
+"year":"2008",
+"rating":"65",
+"tier":"D",
+"genre":"Animation • Sci-Fi • Adventure",
+"poster":"clonewarsmovie.jpg",
+"director":"Dave Filoni",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/star_wars_the_clone_wars"
+},
+
+{
+"id":"the-shining",
+"title":"The Shining",
+"type":"Movie",
+"year":"1980",
+"rating":"96",
+"tier":"A",
+"genre":"Horror • Psychological • Drama",
+"poster":"theshining.webp",
+"director":"Stanley Kubrick",
+"dateWatched":"Spring 2026",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/shining"
+},
+
+{
+"id":"the-odyssey-2026",
+"title":"The Odyssey",
+"type":"Movie",
+"year":"2026",
+"rating":"94",
+"tier":"A",
+"genre":"Adventure • Fantasy • Drama",
+"poster":"theodyssey.webp",
+"director":"Christopher Nolan",
+"dateWatched":"July 2026",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_odyssey_2026"
+},
+
+{
+"id":"supergirl-2026",
+"title":"Supergirl",
+"type":"Movie",
+"year":"2026",
+"rating":"73",
+"tier":"C-",
+"genre":"Superhero • Action • Sci-Fi • Fantasy",
+"poster":"supergirl.jpg",
+"director":"Craig Gillespie",
+"dateWatched":"Summer 2026",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/supergirl_2026"
+},
+
+{
+"id":"12-angry-men",
+"title":"12 Angry Men",
+"type":"Movie",
+"year":"1957",
+"rating":"97",
+"tier":"A",
+"genre":"Drama • Crime • Courtroom",
+"poster":"12angrymen.jpg",
+"director":"Sidney Lumet",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/1000013-12_angry_men"
+},
+
+{
+"id":"the-sixth-sense",
+"title":"The Sixth Sense",
+"type":"Movie",
+"year":"1999",
+"rating":"85",
+"tier":"B+",
+"genre":"Thriller • Horror • Drama",
+"poster":"sixthsense.jpg",
+"director":"M. Night Shyamalan",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/sixth_sense"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
