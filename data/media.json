@@ -15,6 +15,21 @@
 },
 
 {
+"id":"attack-on-titan",
+"title":"Attack on Titan",
+"type":"Show",
+"year":"2013-2023",
+"rating":"99",
+"tier":"S",
+"genre":"Actio Epic",
+"poster":"aot.jpg",
+"director":"Hajime Isayama",
+"dateWatched":"Fall 2022",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/memento"
+},
+
+{
 "id":"memento",
 "title":"Memento",
 "type":"Movie",
@@ -49,7 +64,7 @@
 "title":"Goodfellas",
 "type":"Movie",
 "year":"1990",
-"rating":"9.9/10",
+"rating":"99",
 "tier":"S",
 "genre":"Crime • Drama",
 "poster":"goodfellas.jpg.jpg",
@@ -74,11 +89,50 @@
 "rottenTomatoes":"https://www.rottentomatoes.com/m/silence_of_the_lambs"
 },
 
+{
+"id":"django-unchained",
+"title":"Django Unchained",
+"type":"Movie",
+"year":"2012",
+"rating":"99",
+"tier":"S",
+"genre":"Western • Drama",
+"poster":"django.jpg",
+"director":"Quentin Tarantino",
+"dateWatched":"Summer 2025",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/django_unchained_2012"
+},
 
+{
+"id":"spider-man-2002",
+"title":"Spider-Man",
+"type":"Movie",
+"year":"2002",
+"rating":"99",
+"tier":"S",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"spiderman-2002.jpeg",
+"director":"Sam Raimi",
+"dateWatched":"2005",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/spiderman"
+},
 
-
-
-
+{
+"id":"spider-man-no-way-home",
+"title":"Spider-Man: No Way Home",
+"type":"Movie",
+"year":"2021",
+"rating":"97",
+"tier":"S",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"no-way-home.jpeg",
+"director":"Jon Watts",
+"dateWatched":"December 17th, 2021",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/spider_man_no_way_home"
+},
 
 
 
