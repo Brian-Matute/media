@@ -1,4 +1,19 @@
 [
+    {
+"id":"breaking bad",
+"title":"Breaking Bad",
+"type":"Show",
+"year":"2008-2013",
+"rating":"99",
+"tier":"S",
+"genre":"Crime • Drama",
+"poster":"bb.jpg",
+"director":"Vince Gilligan",
+"dateWatched":"Winter 2021",
+"review":" ",
+"rottenTomatoes":"https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_0_tt_7_nm_0_in_1_q_breaking%20bad"
+  },
+  
   {
 "id":"goodfellas",
 "title":"Goodfellas",
@@ -10,26 +25,11 @@
 "poster":"goodfellas.jpg.jpg",
 "director":"Martin Scorsese",
 
-"dateWatched":"Summer 2021!",
+"dateWatched":"Summer 2021",
 
 "review":"One of the greatest crime films ever made. The performances, editing, and storytelling are incredible.",
 
 "rottenTomatoes":"https://www.rottentomatoes.com/m/1032176-goodfellas"
-  },
-
-  {
-    "title": "Breaking Bad",
-    "type": "Show",
-    "categories": [
-      "Drama",
-      "Favorites"
-    ],
-    "year": "2008",
-    "rating": "10/10",
-    "tier": "S",
-    "genre": "Crime • Drama",
-    "poster": "breakingbad.jpg",
-    "review": "A legendary transformation story with some of the best character writing in television."
   },
 
   {
