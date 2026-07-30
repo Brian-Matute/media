@@ -1770,6 +1770,96 @@
 "dateWatched":"",
 "review":"/",
 "rottenTomatoes":"https://www.rottentomatoes.com/m/1021244_thing"
+},
+
+{
+"id":"cast-away",
+"title":"Cast Away",
+"type":"Movie",
+"year":"2000",
+"rating":"92",
+"tier":"A",
+"genre":"Adventure • Drama",
+"poster":"castaway.jpg",
+"director":"Robert Zemeckis",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/cast_away"
+},
+
+{
+"id":"non-stop",
+"title":"Non-Stop",
+"type":"Movie",
+"year":"2014",
+"rating":"87",
+"tier":"B",
+"genre":"Action • Mystery • Thriller",
+"poster":"nonstop.jpg",
+"director":"Jaume Collet-Serra",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/non_stop_2014"
+},
+
+{
+"id":"the-truman-show",
+"title":"The Truman Show",
+"type":"Movie",
+"year":"1998",
+"rating":"94",
+"tier":"A",
+"genre":"Comedy • Drama • Sci-Fi",
+"poster":"trumanshow.jpg",
+"director":"Peter Weir",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/truman_show"
+},
+
+{
+"id":"knives-out",
+"title":"Knives Out",
+"type":"Movie",
+"year":"2019",
+"rating":"92",
+"tier":"A",
+"genre":"Mystery • Comedy • Crime",
+"poster":"knivesout.jpg",
+"director":"Rian Johnson",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/knives_out"
+},
+
+{
+"id":"glass-onion",
+"title":"Glass Onion: A Knives Out Mystery",
+"type":"Movie",
+"year":"2022",
+"rating":"85",
+"tier":"B",
+"genre":"Mystery • Comedy • Crime",
+"poster":"glassonion.jpg",
+"director":"Rian Johnson",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/glass_onion_a_knives_out_mystery"
+},
+
+{
+"id":"saving-private-ryan",
+"title":"Saving Private Ryan",
+"type":"Movie",
+"year":"1998",
+"rating":"92",
+"tier":"A",
+"genre":"War • Drama",
+"poster":"savingprivateryan.jpg",
+"director":"Steven Spielberg",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/saving_private_ryan"
 }
 
 
