@@ -1860,12 +1860,787 @@
 "dateWatched":"",
 "review":"/",
 "rottenTomatoes":"https://www.rottentomatoes.com/m/saving_private_ryan"
+},
+
+{
+"id":"blade-runner-2049",
+"title":"Blade Runner 2049",
+"type":"Movie",
+"year":"2017",
+"rating":"93",
+"tier":"A",
+"genre":"Sci-Fi • Drama • Mystery",
+"poster":"bladerunner2049.jpg",
+"director":"Denis Villeneuve",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/blade_runner_2049"
+},
+
+{
+"id":"prisoners",
+"title":"Prisoners",
+"type":"Movie",
+"year":"2013",
+"rating":"94",
+"tier":"A",
+"genre":"Crime • Drama • Mystery",
+"poster":"prisoners.webp",
+"director":"Denis Villeneuve",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/prisoners_2013"
+},
+
+{
+"id":"get-out",
+"title":"Get Out",
+"type":"Movie",
+"year":"2017",
+"rating":"92",
+"tier":"A",
+"genre":"Horror • Mystery • Thriller",
+"poster":"getout.jpg",
+"director":"Jordan Peele",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/get_out"
+},
+
+{
+"id":"no-country-for-old-men",
+"title":"No Country for Old Men",
+"type":"Movie",
+"year":"2007",
+"rating":"87",
+"tier":"B",
+"genre":"Crime • Drama • Thriller",
+"poster":"nocountryforoldmen.jpg",
+"director":"Joel Coen • Ethan Coen",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/no_country_for_old_men"
+},
+
+{
+"id":"a-few-good-men",
+"title":"A Few Good Men",
+"type":"Movie",
+"year":"1992",
+"rating":"90",
+"tier":"A",
+"genre":"Drama • Courtroom",
+"poster":"afewgoodmen.jpg",
+"director":"Rob Reiner",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/few_good_men"
+},
+
+{
+"id":"superbad",
+"title":"Superbad",
+"type":"Movie",
+"year":"2007",
+"rating":"92",
+"tier":"A",
+"genre":"Comedy • Coming-of-Age",
+"poster":"superbad.webp",
+"director":"Greg Mottola",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/superbad"
+},
+
+{
+"id":"the-terminal",
+"title":"The Terminal",
+"type":"Movie",
+"year":"2004",
+"rating":"84",
+"tier":"B",
+"genre":"Comedy • Drama • Romance",
+"poster":"theterminal.jpg",
+"director":"Steven Spielberg",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/terminal"
+},
+
+{
+"id":"the-martian",
+"title":"The Martian",
+"type":"Movie",
+"year":"2015",
+"rating":"90",
+"tier":"A",
+"genre":"Sci-Fi • Adventure • Drama",
+"poster":"themartian.jpg",
+"director":"Ridley Scott",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_martian"
+},
+
+{
+"id":"attack-on-titan-the-last-attack",
+"title":"Attack on Titan: The Last Attack",
+"type":"Movie",
+"year":"2024",
+"rating":"96",
+"tier":"A",
+"genre":"Animation • Action • Fantasy",
+"poster":"aotthelastattack.jpg",
+"director":"Yuichiro Hayashi",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/attack_on_titan_the_last_attack"
+},
+
+{
+"id":"air",
+"title":"Air",
+"type":"Movie",
+"year":"2023",
+"rating":"87",
+"tier":"B",
+"genre":"Biography • Drama • Sports",
+"poster":"air.jpg",
+"director":"Ben Affleck",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/air_2023"
+},
+
+{
+"id":"transformers-2007",
+"title":"Transformers",
+"type":"Movie",
+"year":"2007",
+"rating":"85",
+"tier":"B",
+"genre":"Action • Sci-Fi • Adventure",
+"poster":"transformers2007.webp",
+"director":"Michael Bay",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers"
+},
+
+{
+"id":"revenge-of-the-fallen",
+"title":"Transformers: Revenge of the Fallen",
+"type":"Movie",
+"year":"2009",
+"rating":"74",
+"tier":"C",
+"genre":"Action • Sci-Fi • Adventure",
+"poster":"revengeofthefallen.jpg",
+"director":"Michael Bay",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers_revenge_of_the_fallen"
+},
+
+{
+"id":"dark-of-the-moon",
+"title":"Transformers: Dark of the Moon",
+"type":"Movie",
+"year":"2011",
+"rating":"88",
+"tier":"B",
+"genre":"Action • Sci-Fi • Adventure",
+"poster":"darkofthemoon.jpg",
+"director":"Michael Bay",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers_dark_of_the_moon"
+},
+
+{
+"id":"age-of-extinction",
+"title":"Transformers: Age of Extinction",
+"type":"Movie",
+"year":"2014",
+"rating":"78",
+"tier":"C",
+"genre":"Action • Sci-Fi • Adventure",
+"poster":"ageofextinction.jpg",
+"director":"Michael Bay",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers_age_of_extinction"
+},
+
+{
+"id":"the-last-knight",
+"title":"Transformers: The Last Knight",
+"type":"Movie",
+"year":"2017",
+"rating":"55",
+"tier":"F",
+"genre":"Action • Sci-Fi • Adventure",
+"poster":"thelastknight.jpg",
+"director":"Michael Bay",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers_the_last_knight"
+},
+
+{
+"id":"bumblebee",
+"title":"Bumblebee",
+"type":"Movie",
+"year":"2018",
+"rating":"84",
+"tier":"B",
+"genre":"Action • Sci-Fi • Adventure",
+"poster":"bumblebee.jpg",
+"director":"Travis Knight",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/bumblebee"
+},
+
+{
+"id":"rise-of-the-beasts",
+"title":"Transformers: Rise of the Beasts",
+"type":"Movie",
+"year":"2023",
+"rating":"77",
+"tier":"C",
+"genre":"Action • Sci-Fi • Adventure",
+"poster":"riseofthebeasts.jpg",
+"director":"Steven Caple Jr.",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers_rise_of_the_beasts"
+},
+
+{
+"id":"transformers-one",
+"title":"Transformers One",
+"type":"Movie",
+"year":"2024",
+"rating":"91",
+"tier":"A",
+"genre":"Animation • Action • Sci-Fi",
+"poster":"transformersone.jpg",
+"director":"Josh Cooley",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers_one"
+},
+
+{
+"id":"transformers-the-movie-1986",
+"title":"The Transformers: The Movie",
+"type":"Movie",
+"year":"1986",
+"rating":"86",
+"tier":"B",
+"genre":"Animation • Action • Sci-Fi",
+"poster":"transformersthemovie1986.jpg",
+"director":"Nelson Shin",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers_the_movie"
+},
+
+{
+"id":"superman-2025",
+"title":"Superman",
+"type":"Movie",
+"year":"2025",
+"rating":"92",
+"tier":"A",
+"genre":"Superhero • Action • Adventure",
+"poster":"superman2025.jpg",
+"director":"James Gunn",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/superman_2025"
+},
+
+{
+"id":"spirited-away",
+"title":"Spirited Away",
+"type":"Movie",
+"year":"2001",
+"rating":"80",
+"tier":"B",
+"genre":"Animation • Fantasy • Adventure",
+"poster":"spiritedaway.jpg",
+"director":"Hayao Miyazaki",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/spirited_away"
+},
+
+{
+"id":"the-suicide-squad",
+"title":"The Suicide Squad",
+"type":"Movie",
+"year":"2021",
+"rating":"86",
+"tier":"B",
+"genre":"Superhero • Action • Comedy",
+"poster":"thesuicidesquad.jpg",
+"director":"James Gunn",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_suicide_squad"
+},
+
+{
+"id":"sorcerers-stone",
+"title":"Harry Potter and the Sorcerer's Stone",
+"type":"Movie",
+"year":"2001",
+"rating":"76",
+"tier":"C",
+"genre":"Fantasy • Adventure • Family",
+"poster":"sorcerersstone.jpg",
+"director":"Chris Columbus",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/harry_potter_and_the_sorcerers_stone"
+},
+
+{
+"id":"chamber-of-secrets",
+"title":"Harry Potter and the Chamber of Secrets",
+"type":"Movie",
+"year":"2002",
+"rating":"76",
+"tier":"C",
+"genre":"Fantasy • Adventure • Mystery",
+"poster":"chamberofsecrets.jpg",
+"director":"Chris Columbus",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/harry_potter_and_the_chamber_of_secrets"
+},
+
+{
+"id":"prisoner-of-azkaban",
+"title":"Harry Potter and the Prisoner of Azkaban",
+"type":"Movie",
+"year":"2004",
+"rating":"80",
+"tier":"B",
+"genre":"Fantasy • Adventure • Mystery",
+"poster":"prisonerofazkaban.jpg",
+"director":"Alfonso Cuarón",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/harry_potter_and_the_prisoner_of_azkaban"
+},
+
+{
+"id":"goblet-of-fire",
+"title":"Harry Potter and the Goblet of Fire",
+"type":"Movie",
+"year":"2005",
+"rating":"83",
+"tier":"B",
+"genre":"Fantasy • Adventure",
+"poster":"gobletoffire.jpg",
+"director":"Mike Newell",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/harry_potter_and_the_goblet_of_fire"
+},
+
+{
+"id":"order-of-the-phoenix",
+"title":"Harry Potter and the Order of the Phoenix",
+"type":"Movie",
+"year":"2007",
+"rating":"80",
+"tier":"B",
+"genre":"Fantasy • Adventure • Drama",
+"poster":"orderofthephoenix.jpg",
+"director":"David Yates",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/harry_potter_and_the_order_of_the_phoenix"
+},
+
+{
+"id":"half-blood-prince",
+"title":"Harry Potter and the Half-Blood Prince",
+"type":"Movie",
+"year":"2009",
+"rating":"79",
+"tier":"C",
+"genre":"Fantasy • Adventure • Drama",
+"poster":"halfbloodprince.jpg",
+"director":"David Yates",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/harry_potter_and_the_half_blood_prince"
+},
+
+{
+"id":"deathly-hallows-part-1",
+"title":"Harry Potter and the Deathly Hallows - Part 1",
+"type":"Movie",
+"year":"2010",
+"rating":"88",
+"tier":"B",
+"genre":"Fantasy • Adventure • Drama",
+"poster":"deathlyhallows1.jpg",
+"director":"David Yates",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/harry_potter_and_the_deathly_hallows_part_1"
+},
+
+{
+"id":"deathly-hallows-part-2",
+"title":"Harry Potter and the Deathly Hallows - Part 2",
+"type":"Movie",
+"year":"2011",
+"rating":"86",
+"tier":"B",
+"genre":"Fantasy • Adventure • Drama",
+"poster":"deathlyhallows2.jpg",
+"director":"David Yates",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/harry_potter_and_the_deathly_hallows_part_2"
+},
+
+{
+"id":"tmnt-mutant-mayhem",
+"title":"Teenage Mutant Ninja Turtles: Mutant Mayhem",
+"type":"Movie",
+"year":"2023",
+"rating":"84",
+"tier":"B",
+"genre":"Animation • Action • Adventure • Comedy",
+"poster":"mutantmayhem.jpg",
+"director":"Jeff Rowe",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles_mutant_mayhem"
+},
+
+{
+"id":"tmnt-2014",
+"title":"Teenage Mutant Ninja Turtles",
+"type":"Movie",
+"year":"2014",
+"rating":"71",
+"tier":"C",
+"genre":"Action • Adventure • Comedy • Sci-Fi",
+"poster":"tmnt2014.jpg",
+"director":"Jonathan Liebesman",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles_2014"
+},
+
+{
+"id":"tmnt-out-of-the-shadows",
+"title":"Teenage Mutant Ninja Turtles: Out of the Shadows",
+"type":"Movie",
+"year":"2016",
+"rating":"65",
+"tier":"D",
+"genre":"Action • Adventure • Comedy • Sci-Fi",
+"poster":"outoftheshadows.jpg",
+"director":"Dave Green",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles_out_of_the_shadows"
+},
+
+{
+"id":"the-giver",
+"title":"The Giver",
+"type":"Movie",
+"year":"2014",
+"rating":"78",
+"tier":"C",
+"genre":"Sci-Fi • Drama • Dystopian",
+"poster":"thegiver.jpg",
+"director":"Phillip Noyce",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_giver"
+},
+
+{
+"id":"el-camino-breaking-bad",
+"title":"El Camino: A Breaking Bad Movie",
+"type":"Movie",
+"year":"2019",
+"rating":"86",
+"tier":"B",
+"genre":"Crime • Drama • Thriller",
+"poster":"elcamino.jpg",
+"director":"Vince Gilligan",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/el_camino_a_breaking_bad_movie"
+},
+
+{
+"id":"shaun-of-the-dead",
+"title":"Shaun of the Dead",
+"type":"Movie",
+"year":"2004",
+"rating":"86",
+"tier":"B",
+"genre":"Comedy • Horror • Zombie",
+"poster":"shaunofthedead.jpg",
+"director":"Edgar Wright",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/shaun_of_the_dead"
+},
+
+{
+"id":"taxi-driver",
+"title":"Taxi Driver",
+"type":"Movie",
+"year":"1976",
+"rating":"85",
+"tier":"B",
+"genre":"Crime • Drama • Thriller",
+"poster":"taxidriver.jpg",
+"director":"Martin Scorsese",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/taxi_driver"
+},
+
+{
+"id":"the-kings-speech",
+"title":"The King's Speech",
+"type":"Movie",
+"year":"2010",
+"rating":"83",
+"tier":"B",
+"genre":"Biography • Drama • History",
+"poster":"thekingsspeech.jpg",
+"director":"Tom Hooper",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_kings_speech"
+},
+
+{
+"id":"remember-the-titans",
+"title":"Remember the Titans",
+"type":"Movie",
+"year":"2000",
+"rating":"78",
+"tier":"C",
+"genre":"Biography • Drama • Sports",
+"poster":"rememberthetitans.jpg",
+"director":"Boaz Yakin",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/remember_the_titans"
+},
+
+{
+"id":"the-sunset-limited",
+"title":"The Sunset Limited",
+"type":"Movie",
+"year":"2011",
+"rating":"81",
+"tier":"B",
+"genre":"Drama • Philosophy",
+"poster":"thesunsetlimited.jpg",
+"director":"Tommy Lee Jones",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_sunset_limited"
+},
+
+{
+"id":"the-grand-budapest-hotel",
+"title":"The Grand Budapest Hotel",
+"type":"Movie",
+"year":"2014",
+"rating":"80",
+"tier":"B",
+"genre":"Comedy • Drama • Adventure",
+"poster":"grandbudapesthotel.jpg",
+"director":"Wes Anderson",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_grand_budapest_hotel"
+},
+
+{
+"id":"man-of-steel",
+"title":"Man of Steel",
+"type":"Movie",
+"year":"2013",
+"rating":"75",
+"tier":"C",
+"genre":"Superhero • Action • Sci-Fi",
+"poster":"manofsteel.jpg",
+"director":"Zack Snyder",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/man_of_steel_2013"
+},
+
+{
+"id":"dont-worry-darling",
+"title":"Don't Worry Darling",
+"type":"Movie",
+"year":"2022",
+"rating":"73",
+"tier":"C",
+"genre":"Psychological Thriller • Mystery • Drama",
+"poster":"dontworrydarling.jpg",
+"director":"Olivia Wilde",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/dont_worry_darling"
+},
+
+{
+"id":"batman-the-killing-joke",
+"title":"Batman: The Killing Joke",
+"type":"Movie",
+"year":"2016",
+"rating":"74",
+"tier":"C",
+"genre":"Animation • Superhero • Crime",
+"poster":"batmanthekillingjoke.jpg",
+"director":"Sam Liu",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/batman_the_killing_joke"
+},
+
+{
+"id":"godzilla-vs-kong",
+"title":"Godzilla vs. Kong",
+"type":"Movie",
+"year":"2021",
+"rating":"72",
+"tier":"C",
+"genre":"Action • Sci-Fi • Monster",
+"poster":"godzillavskong.jpg",
+"director":"Adam Wingard",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/godzilla_vs_kong"
+},
+
+{
+"id":"aquaman",
+"title":"Aquaman",
+"type":"Movie",
+"year":"2018",
+"rating":"73",
+"tier":"C",
+"genre":"Superhero • Action • Adventure",
+"poster":"aquaman.jpg",
+"director":"James Wan",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/aquaman_2018"
+},
+
+{
+"id":"batman-v-superman",
+"title":"Batman v Superman: Dawn of Justice",
+"type":"Movie",
+"year":"2016",
+"rating":"71",
+"tier":"C",
+"genre":"Superhero • Action • Drama",
+"poster":"batmanvsuperman.jpg",
+"director":"Zack Snyder",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/batman_v_superman_dawn_of_justice"
+},
+
+{
+"id":"babylon",
+"title":"Babylon",
+"type":"Movie",
+"year":"2022",
+"rating":"65",
+"tier":"D",
+"genre":"Drama • Comedy • History",
+"poster":"babylon2022.jpg",
+"director":"Damien Chazelle",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/babylon_2022"
+},
+
+{
+"id":"dune-part-one",
+"title":"Dune: Part One",
+"type":"Movie",
+"year":"2021",
+"rating":"93",
+"tier":"A",
+"genre":"Sci-Fi • Adventure • Drama",
+"poster":"dunepartone.jpg",
+"director":"Denis Villeneuve",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/dune_2021"
+},
+
+{
+"id":"dune-part-two",
+"title":"Dune: Part Two",
+"type":"Movie",
+"year":"2024",
+"rating":"94",
+"tier":"A",
+"genre":"Sci-Fi • Adventure • Drama",
+"poster":"duneparttwo.jpg",
+"director":"Denis Villeneuve",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/dune_part_two"
+},
+
+{
+"id":"spider-man-brand-new-day",
+"title":"Spider-Man: Brand New Day",
+"type":"Movie",
+"year":"2026",
+"rating":"94",
+"tier":"A",
+"genre":"Superhero • Action • Adventure",
+"poster":"spidermanbrandnewday.jpg",
+"director":"Destin Daniel Cretton",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/spider_man_brand_new_day"
+},
+
+{
+"id":"the-hunger-games",
+"title":"The Hunger Games",
+"type":"Movie",
+"year":"2012",
+"rating":"83",
+"tier":"B",
+"genre":"Action • Adventure • Sci-Fi",
+"poster":"thehungergames.jpg",
+"director":"Gary Ross",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_hunger_games"
 }
-
-
-
-
-
 
 
 
