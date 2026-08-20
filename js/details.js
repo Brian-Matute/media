@@ -65,7 +65,18 @@ fetch("data/media.json")
             <p>
             ${item.genre || "N/A"}
             </p>
+            
+            ${item.type === "Show" ? `
 
+           <h3>
+           📺 Progress
+           </h3>
+
+           <p>
+           ${item.progress || "Not added yet"}
+           </p>
+
+           ` : ""}
 
 
 
@@ -89,25 +100,24 @@ fetch("data/media.json")
             ${item.review}
             </p>
 
+          <h3>
+          Rotten Tomatoes/ IMDB:
+          </h3>
+
+          <p>
+
+          <a 
+          href="${item.rottenTomatoes || item.imdb}" 
+         target="_blank">
+
+         View Critic's Page
+
+         </a>
+
+         </p>
 
 
-
-            <h3>
-            Rotten Tomatoes/ IMDB:
-            </h3>
-
-
-            <p>
-
-            <a 
-            href="${item.rottenTomatoes}" 
-            target="_blank">
-            
-            View Critic's Page
-            
-            </a>
-
-            </p>
+           
 
 
 

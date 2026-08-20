@@ -92,6 +92,13 @@ ${item.year} • ${item.type}
 </p>
 
 
+${item.type === "Show" && item.progress ? `
+<p class="progress-badge">
+📺 ${item.progress}
+</p>
+` : ""}
+
+
 
 </div>
 

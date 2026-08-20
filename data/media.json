@@ -9,9 +9,10 @@
 "genre":"Crime • Drama",
 "poster":"bb.jpg",
 "director":"Vince Gilligan",
+"progress":"Completed",
 "dateWatched":"Winter 2021",
 "review":"",
-"rottenTomatoes":"https://www.rottentomatoes.com/tv/breaking_bad"
+"rottenTomatoes":"https://www.imdb.com/title/tt0903747/"
 },
 
 {
@@ -24,9 +25,10 @@
 "genre":"Action Epic",
 "poster":"aot.jpg",
 "director":"Hajime Isayama",
+"progress":"Completed",
 "dateWatched":"Fall 2022",
 "review":"/",
-"rottenTomatoes":"https://www.rottentomatoes.com/m/memento"
+"rottenTomatoes":"https://www.imdb.com/title/tt2560140/?ref_=fn_t_1"
 },
 
 {
@@ -178,7 +180,7 @@
 "director":"Marc Webb",
 "dateWatched":"",
 "review":"/",
-"rottenTomatoes":"https://www.rottentomatoes.com/m/the_amazing_spiderman"
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_amazing_spider_man"
 },
 
 
@@ -2024,7 +2026,7 @@
 "director":"Michael Bay",
 "dateWatched":"",
 "review":"/",
-"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers"
+"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers_the_movie"
 },
 
 {
@@ -2144,7 +2146,7 @@
 "director":"Nelson Shin",
 "dateWatched":"",
 "review":"/",
-"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers_the_movie"
+"rottenTomatoes":"https://www.rottentomatoes.com/m/transformers_the_the_movie"
 },
 
 {
@@ -2260,7 +2262,7 @@
 "rating":"80",
 "tier":"B",
 "genre":"Fantasy • Adventure • Drama",
-"poster":"orderofthephoenix.jpg",
+"poster":"orderofthephoenix.webp",
 "director":"David Yates",
 "dateWatched":"",
 "review":"/",
@@ -2284,7 +2286,7 @@
 
 {
 "id":"deathly-hallows-part-1",
-"title":"Harry Potter and the Deathly Hallows - Part 1",
+"title":"Harry Potter and the Deathly Hallows: Part 1",
 "type":"Movie",
 "year":"2010",
 "rating":"88",
@@ -2299,7 +2301,7 @@
 
 {
 "id":"deathly-hallows-part-2",
-"title":"Harry Potter and the Deathly Hallows - Part 2",
+"title":"Harry Potter and the Deathly Hallows: Part 2",
 "type":"Movie",
 "year":"2011",
 "rating":"86",
@@ -2572,10 +2574,10 @@
 "title":"Babylon",
 "type":"Movie",
 "year":"2022",
-"rating":"65",
-"tier":"D",
+"rating":"58",
+"tier":"F",
 "genre":"Drama • Comedy • History",
-"poster":"babylon2022.jpg",
+"poster":"babylon.webp",
 "director":"Damien Chazelle",
 "dateWatched":"",
 "review":"/",
@@ -2584,7 +2586,7 @@
 
 {
 "id":"dune-part-one",
-"title":"Dune: Part One",
+"title":"Dune",
 "type":"Movie",
 "year":"2021",
 "rating":"93",
@@ -2605,7 +2607,7 @@
 "rating":"94",
 "tier":"A",
 "genre":"Sci-Fi • Adventure • Drama",
-"poster":"duneparttwo.jpg",
+"poster":"duneparttwo.webp",
 "director":"Denis Villeneuve",
 "dateWatched":"",
 "review":"/",
@@ -2620,7 +2622,7 @@
 "rating":"94",
 "tier":"A",
 "genre":"Superhero • Action • Adventure",
-"poster":"spidermanbrandnewday.jpg",
+"poster":"spidermanbrandnewday.webp",
 "director":"Destin Daniel Cretton",
 "dateWatched":"",
 "review":"/",
@@ -2640,8 +2642,551 @@
 "dateWatched":"",
 "review":"/",
 "rottenTomatoes":"https://www.rottentomatoes.com/m/the_hunger_games"
-}
+},
 
+{
+"id":"monster",
+"title":"Monster",
+"type":"Show",
+"year":"2004-2005",
+"rating":"96",
+"tier":"S",
+"genre":"Anime • Psychological Thriller • Mystery • Crime",
+"poster":"monster.webp",
+"director":"Masayuki Kojima",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt0434706/?ref_=ttrel_ov_i"
+},
+
+{
+"id":"better-call-saul",
+"title":"Better Call Saul",
+"type":"Show",
+"year":"2015-2022",
+"rating":"97",
+"tier":"S",
+"genre":"Crime • Drama • Legal • Thriller",
+"poster":"bettercallsaul.webp",
+"director":"Vince Gilligan • Peter Gould",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt0903747/?ref_=fn_t_1"
+},
+
+{
+"id":"hunter-x-hunter",
+"title":"Hunter x Hunter",
+"type":"Show",
+"year":"2011-2014",
+"rating":"97",
+"tier":"S",
+"genre":"Animation • Action • Adventure • Fantasy",
+"poster":"hunterxhunter.jpg",
+"director":"Hiroshi Kōjina",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt2098220/"
+},
+
+{
+"id":"fullmetal-alchemist-brotherhood",
+"title":"Fullmetal Alchemist: Brotherhood",
+"type":"Show",
+"year":"2009-2010",
+"rating":"95",
+"tier":"A",
+"genre":"Animation • Action • Adventure • Drama • Fantasy",
+"poster":"fullmetalalchemistbrotherhood.jpg",
+"director":"Yasuhiro Irie",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt1355642/"
+},
+
+{
+"id":"peaky-blinders",
+"title":"Peaky Blinders",
+"type":"Show",
+"year":"2013-2022",
+"rating":"95",
+"tier":"A",
+"genre":"Crime • Drama",
+"poster":"peakyblinders.jpg",
+"director":"Steven Knight",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt2442560/"
+},
+
+{
+"id":"tmnt-2012",
+"title":"Teenage Mutant Ninja Turtles",
+"type":"Show",
+"year":"2012-2017",
+"rating":"91",
+"tier":"A",
+"genre":"Animation • Action • Adventure • Comedy",
+"poster":"tmnt2012.webp",
+"director":"Ciro Nieli • Joshua Sternin • J. R. Ventimilia",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt1877889/"
+},
+
+{
+"id":"game-of-thrones",
+"title":"Game of Thrones",
+"type":"Show",
+"year":"2011-2019",
+"rating":"95",
+"tier":"A",
+"genre":"Drama • Fantasy • Adventure",
+"poster":"gameofthrones.jpg",
+"director":"David Benioff • D. B. Weiss",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt0944947/"
+},
+
+{
+"id":"death-note",
+"title":"Death Note",
+"type":"Show",
+"year":"2006-2007",
+"rating":"99",
+"tier":"S",
+"genre":"Animation • Crime • Drama • Mystery • Thriller",
+"poster":"deathnote.jpg",
+"director":"Tetsurō Araki",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt0877057/"
+},
+
+{
+"id":"star-wars-the-clone-wars",
+"title":"Star Wars: The Clone Wars",
+"type":"Show",
+"year":"2008-2020",
+"rating":"92",
+"tier":"A",
+"genre":"Animation • Action • Adventure • Sci-Fi",
+"poster":"starwarstheclonewars.jpg",
+"director":"George Lucas",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt0458290/"
+},
+
+{
+"id":"the-boys",
+"title":"The Boys",
+"type":"Show",
+"year":"2019-2026",
+"rating":"85",
+"tier":"B",
+"genre":"Action • Comedy • Crime • Drama • Superhero",
+"poster":"theboys.jpg",
+"director":"Eric Kripke",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt1190634/"
+},
+
+{
+"id":"stranger-things",
+"title":"Stranger Things",
+"type":"Show",
+"year":"2016-2025",
+"rating":"85",
+"tier":"B",
+"genre":"Drama • Fantasy • Horror • Mystery • Sci-Fi",
+"poster":"strangerthings.webp",
+"director":"The Duffer Brothers",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt4574334/"
+},
+
+{
+"id":"loki",
+"title":"Loki",
+"type":"Show",
+"year":"2021-2023",
+"rating":"90",
+"tier":"A",
+"genre":"Action • Adventure • Fantasy • Sci-Fi",
+"poster":"loki.jpg",
+"director":"Michael Waldron",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt9140554/"
+},
+
+{
+"id":"invincible",
+"title":"Invincible",
+"type":"Show",
+"year":"2021-present",
+"rating":"91",
+"tier":"A",
+"genre":"Animation • Action • Adventure • Drama • Superhero",
+"poster":"invincible.jpg",
+"director":"Robert Kirkman",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt6741278/"
+},
+
+{
+"id":"steins-gate",
+"title":"Steins;Gate",
+"type":"Show",
+"year":"2011",
+"rating":"89",
+"tier":"B",
+"genre":"Animation • Drama • Sci-Fi • Thriller",
+"poster":"steinsgate.jpg",
+"director":"Hiroshi Hamasaki • Takuya Satō",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt1910272/"
+},
+
+{
+"id":"steins-gate-0",
+"title":"Steins;Gate 0",
+"type":"Show",
+"year":"2018",
+"rating":"79",
+"tier":"C",
+"genre":"Animation • Drama • Sci-Fi • Thriller",
+"poster":"steinsgate0.webp",
+"director":"Kenichi Kawamura",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt8253886/"
+},
+
+{
+"id":"vinland-saga",
+"title":"Vinland Saga",
+"type":"Show",
+"year":"2019-present",
+"rating":"85",
+"tier":"B",
+"genre":"Animation • Action • Adventure • Drama • Historical",
+"poster":"vinlandsaga.webp",
+"director":"Shūhei Yabuta",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt10233448/"
+},
+
+{
+"id":"andor",
+"title":"Andor",
+"type":"Show",
+"year":"2022-2025",
+"rating":"90",
+"tier":"A",
+"genre":"Action • Adventure • Drama • Sci-Fi",
+"poster":"andor.jpg",
+"director":"Tony Gilroy",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt9253284/"
+},
+
+{
+"id":"code-geass",
+"title":"Code Geass: Lelouch of the Rebellion",
+"type":"Show",
+"year":"2006-2008",
+"rating":"81",
+"tier":"B",
+"genre":"Animation • Action • Drama • Sci-Fi • Thriller",
+"poster":"codegeass.jpg",
+"director":"Gorō Taniguchi",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt0994314/"
+},
+
+{
+"id":"the-mandalorian",
+"title":"The Mandalorian",
+"type":"Show",
+"year":"2019-present",
+"rating":"79",
+"tier":"C",
+"genre":"Action • Adventure • Fantasy • Sci-Fi",
+"poster":"themandalorian.jpg",
+"director":"Jon Favreau",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt8111088/"
+},
+
+{
+"id":"cyberpunk-edgerunners",
+"title":"Cyberpunk: Edgerunners",
+"type":"Show",
+"year":"2022",
+"rating":"80",
+"tier":"B",
+"genre":"Animation • Action • Drama • Sci-Fi • Thriller",
+"poster":"cyberpunkedgerunners.jpg",
+"director":"Hiroyuki Imaishi",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt12590266/"
+},
+
+{
+"id":"squid-game",
+"title":"Squid Game",
+"type":"Show",
+"year":"2021-2025",
+"rating":"77",
+"tier":"C",
+"genre":"Drama • Mystery • Thriller",
+"poster":"squidgame.jpg",
+"director":"Hwang Dong-hyuk",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt10919420/"
+},
+
+{
+"id":"wandavision",
+"title":"WandaVision",
+"type":"Show",
+"year":"2021",
+"rating":"78",
+"tier":"C",
+"genre":"Action • Comedy • Drama • Fantasy • Mystery",
+"poster":"wandavision.jpg",
+"director":"Jac Schaeffer",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt9140560/"
+},
+
+{
+"id":"the-falcon-and-the-winter-soldier",
+"title":"The Falcon and the Winter Soldier",
+"type":"Show",
+"year":"2021",
+"rating":"77",
+"tier":"C",
+"genre":"Action • Adventure • Drama • Superhero",
+"poster":"falconandwintersoldier.jpg",
+"director":"Malcolm Spellman",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt9208876/"
+},
+
+{
+"id":"obi-wan-kenobi",
+"title":"Obi-Wan Kenobi",
+"type":"Show",
+"year":"2022",
+"rating":"66",
+"tier":"C",
+"genre":"Action • Adventure • Drama • Sci-Fi",
+"poster":"obiwankenobi.jpg",
+"director":"Joby Harold",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt8466564/"
+},
+
+{
+"id":"hawkeye",
+"title":"Hawkeye",
+"type":"Show",
+"year":"2021",
+"rating":"75",
+"tier":"C",
+"genre":"Action • Adventure • Comedy • Crime",
+"poster":"hawkeye.jpg",
+"director":"Jonathan Igla",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt10160804/"
+},
+
+{
+"id":"moon-knight",
+"title":"Moon Knight",
+"type":"Show",
+"year":"2022",
+"rating":"74",
+"tier":"C",
+"genre":"Action • Adventure • Fantasy • Superhero",
+"poster":"moonknight.jpg",
+"director":"Jeremy Slater",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt10234724/"
+},
+
+{
+"id":"book-of-boba-fett",
+"title":"The Book of Boba Fett",
+"type":"Show",
+"year":"2021-2022",
+"rating":"71",
+"tier":"C",
+"genre":"Action • Adventure • Sci-Fi",
+"poster":"bookofbobafett.jpg",
+"director":"Jon Favreau",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt13668894/"
+},
+
+{
+"id":"transformers-g1",
+"title":"The Transformers",
+"type":"Show",
+"year":"1984-1987",
+"rating":"84",
+"tier":"B",
+"genre":"Animation • Action • Adventure • Sci-Fi",
+"poster":"transformersg1.jpg",
+"director":"Jay Bacal • Larry Houston",
+"dateWatched":"",
+"review":"/",
+"progress":"Completed",
+"imdb":"https://www.imdb.com/title/tt0086817/"
+},
+
+{
+"id":"rick-and-morty",
+"title":"Rick and Morty",
+"type":"Show",
+"year":"2013-present",
+"rating":"80",
+"tier":"B",
+"genre":"Animation • Adventure • Comedy • Sci-Fi",
+"poster":"rickandmorty.webp",
+"director":"Dan Harmon • Justin Roiland",
+"dateWatched":"",
+"review":"/",
+"progress":"Finished S5",
+"imdb":"https://www.imdb.com/title/tt2861424/"
+},
+
+{
+"id":"the-last-of-us",
+"title":"The Last of Us",
+"type":"Show",
+"year":"2023-present",
+"rating":"78",
+"tier":"C",
+"genre":"Drama • Action • Adventure • Horror",
+"poster":"thelastofus.jpg",
+"director":"Craig Mazin • Neil Druckmann",
+"dateWatched":"",
+"review":"/",
+"progress":"Finished S1",
+"imdb":"https://www.imdb.com/title/tt3581920/"
+},
+
+{
+"id":"gen-v",
+"title":"Gen V",
+"type":"Show",
+"year":"2023-present",
+"rating":"80",
+"tier":"B",
+"genre":"Action • Comedy • Drama • Sci-Fi",
+"poster":"genv.jpg",
+"director":"Craig Rosenberg • Evan Goldberg • Eric Kripke",
+"dateWatched":"",
+"review":"/",
+"progress":"Finished S1",
+"imdb":"https://www.imdb.com/title/tt13159924/"
+},
+
+{
+"id":"dr-stone",
+"title":"Dr. Stone",
+"type":"Show",
+"year":"2019-present",
+"rating":"75",
+"tier":"C",
+"genre":"Animation • Adventure • Comedy • Sci-Fi",
+"poster":"drstone.jpg",
+"director":"Shinya Iino",
+"dateWatched":"",
+"review":"/",
+"progress":"Finished S2",
+"imdb":"https://www.imdb.com/title/tt9679542/"
+},
+
+{
+"id":"what-if",
+"title":"What If...?",
+"type":"Show",
+"year":"2021-2024",
+"rating":"50",
+"tier":"F",
+"genre":"Animation • Action • Adventure • Sci-Fi",
+"poster":"whatif.jpg",
+"director":"A.C. Bradley",
+"dateWatched":"",
+"review":"/",
+"progress":"Finished S1",
+"imdb":"https://www.imdb.com/title/tt10168312/"
+},
+
+{
+"id":"jojos-bizarre-adventure",
+"title":"JoJo's Bizarre Adventure",
+"type":"Show",
+"year":"2012-present",
+"rating":"78",
+"tier":"S",
+"genre":"Animation • Action • Adventure • Fantasy",
+"poster":"jjba.jpg",
+"director":"Naokatsu Tsuda",
+"dateWatched":"",
+"review":"/",
+"progress":"Finished S3",
+"imdb":"https://www.imdb.com/title/tt2359704/"
+}
 
 
 
