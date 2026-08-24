@@ -132,8 +132,11 @@ container.appendChild(card);
 
 }
 
+function getReleaseYear(year) {
 
+    return Number(String(year).split("-")[0]);
 
+}
 
 
 
@@ -230,7 +233,7 @@ if(selectedSort === "ratingLow") {
 if(selectedSort === "yearNew") {
 
     filteredMedia.sort((a,b) =>
-        Number(b.year) - Number(a.year)
+        getReleaseYear(b.year) - getReleaseYear(a.year)
     );
 
 }
@@ -240,7 +243,7 @@ if(selectedSort === "yearNew") {
 if(selectedSort === "yearOld") {
 
     filteredMedia.sort((a,b) =>
-        Number(a.year) - Number(b.year)
+        getReleaseYear(a.year) - getReleaseYear(b.year)
     );
 
 }
