@@ -16,10 +16,13 @@ fetch("data/media.json")
     const container = document.getElementById("details");
 
 
-    container.innerHTML = `
+     container.innerHTML = `
 
+     <a href="index.html" class="back-button">
+     ← Back to Archive
+     </a>
 
-    <div class="detail-card">
+     <div class="detail-card">
 
 
         <img 
