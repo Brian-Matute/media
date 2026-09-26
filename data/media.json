@@ -3186,10 +3186,97 @@
 "review":"/",
 "progress":"Finished S3",
 "imdb":"https://www.imdb.com/title/tt2359704/"
+},
+
+{
+"id":"the-hunger-games-catching-fire",
+"title":"The Hunger Games: Catching Fire",
+"type":"Movie",
+"year":"2013",
+"rating":"81",
+"tier":"B",
+"genre":"Action • Adventure • Sci-Fi • Drama",
+"poster":"catchingfire.jpg",
+"director":"Francis Lawrence",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_hunger_games_catching_fire"
+},
+
+{
+"id":"the-hunger-games-mockingjay-part-1",
+"title":"The Hunger Games: Mockingjay - Part 1",
+"type":"Movie",
+"year":"2014",
+"rating":"78",
+"tier":"C",
+"genre":"Action • Adventure • Sci-Fi • Drama",
+"poster":"mockingjaypart1.jpg",
+"director":"Francis Lawrence",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_hunger_games_mockingjay_part_1"
+},
+
+{
+"id":"the-hunger-games-mockingjay-part-2",
+"title":"The Hunger Games: Mockingjay - Part 2",
+"type":"Movie",
+"year":"2015",
+"rating":"78",
+"tier":"C",
+"genre":"Action • Adventure • Sci-Fi • Drama",
+"poster":"mockingjaypart2.jpg",
+"director":"Francis Lawrence",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/the_hunger_games_mockingjay_part_2"
+},
+
+{
+"id":"se7en",
+"title":"Se7en",
+"type":"Movie",
+"year":"1995",
+"rating":"93",
+"tier":"A",
+"genre":"Crime • Drama • Mystery • Thriller",
+"poster":"se7en.webp",
+"director":"David Fincher",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/seven"
+},
+
+{
+"id":"zodiac",
+"title":"Zodiac",
+"type":"Movie",
+"year":"2007",
+"rating":"87",
+"tier":"B",
+"genre":"Crime • Drama • Mystery • Thriller",
+"poster":"zodiac.webp",
+"director":"David Fincher",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/zodiac"
+},
+
+{
+"id":"nightcrawler",
+"title":"Nightcrawler",
+"type":"Movie",
+"year":"2014",
+"rating":"95",
+"tier":"A",
+"genre":"Crime • Drama • Thriller",
+"poster":"nightcrawler.webp",
+"director":"Dan Gilroy",
+"dateWatched":"",
+"review":"/",
+"rottenTomatoes":"https://www.rottentomatoes.com/m/nightcrawler"
 }
-
-
-
 
 
 
