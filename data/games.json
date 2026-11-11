@@ -1,0 +1,129 @@
+[
+{
+"id":"red-dead-redemption-2",
+"title":"Red Dead Redemption 2",
+"year":"2018",
+"rating":"99",
+"tier":"S",
+"genre":"Action-Adventure • Western",
+"platform":"",
+"developer":"Rockstar Games",
+"status":"",
+"hours":"",
+"dateCompleted":"",
+"cover":"",
+"review":""
+},
+
+{
+"id":"detroit-become-human",
+"title":"Detroit: Become Human",
+"year":"2018",
+"rating":"94",
+"tier":"A",
+"genre":"Adventure • Sci-Fi • Interactive Drama",
+"platform":"",
+"developer":"Quantic Dream",
+"status":"",
+"hours":"",
+"dateCompleted":"",
+"cover":"",
+"review":""
+},
+
+{
+"id":"ghost-of-tsushima",
+"title":"Ghost of Tsushima",
+"year":"2020",
+"rating":"90",
+"tier":"A",
+"genre":"Action-Adventure • Open World",
+"platform":"",
+"developer":"Sucker Punch Productions",
+"status":"",
+"hours":"",
+"dateCompleted":"",
+"cover":"",
+"review":""
+},
+
+{
+"id":"grand-theft-auto-v",
+"title":"Grand Theft Auto V",
+"year":"2013",
+"rating":"85",
+"tier":"B",
+"genre":"Action-Adventure • Crime • Open World",
+"platform":"",
+"developer":"Rockstar North",
+"status":"",
+"hours":"",
+"dateCompleted":"",
+"cover":"",
+"review":""
+},
+
+{
+"id":"super-paper-mario",
+"title":"Super Paper Mario",
+"year":"2007",
+"rating":"96",
+"tier":"S",
+"genre":"Platformer • RPG",
+"platform":"",
+"developer":"Intelligent Systems",
+"status":"",
+"hours":"",
+"dateCompleted":"",
+"cover":"",
+"review":""
+},
+
+{
+"id":"super-mario-galaxy",
+"title":"Super Mario Galaxy",
+"year":"2007",
+"rating":"95",
+"tier":"S",
+"genre":"Platformer",
+"platform":"",
+"developer":"Nintendo",
+"status":"",
+"hours":"",
+"dateCompleted":"",
+"cover":"",
+"review":""
+},
+
+{
+"id":"marvels-spider-man",
+"title":"Marvel's Spider-Man",
+"year":"2018",
+"rating":"97",
+"tier":"S",
+"genre":"Action-Adventure • Superhero • Open World",
+"platform":"PS4",
+"developer":"Insomniac Games",
+"status":"",
+"hours":"",
+"dateCompleted":"",
+"cover":"",
+"review":""
+},
+
+{
+"id":"marvels-spider-man-2",
+"title":"Marvel's Spider-Man 2",
+"year":"2023",
+"rating":"88",
+"tier":"B",
+"genre":"Action-Adventure • Superhero • Open World",
+"platform":"PS5",
+"developer":"Insomniac Games",
+"status":"",
+"hours":"",
+"dateCompleted":"",
+"cover":"",
+"review":""
+}
+]

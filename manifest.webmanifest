@@ -1,0 +1,14 @@
+{
+  "name": "Brian's Media Archive",
+  "short_name": "Media Archive",
+  "description": "Movies, shows, games, and stories worth remembering.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#05070f",
+  "theme_color": "#05070f",
+  "icons": [
+    { "src": "images/brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "images/brand/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

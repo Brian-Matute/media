@@ -1,39 +1,25 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-
-<title>Media Details</title>
-
-<link href="css/style.css" rel="stylesheet">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brian's Media Archive</title>
+<meta name="robots" content="noindex">
+<script>
+    // Old links looked like details.html?id=...; every title now lives at ./?title=...
+    (function () {
+        var p = new URLSearchParams(location.search);
+        var game = p.get("game");
+        var id = p.get("id");
+        var target = game ? "./?game=" + encodeURIComponent(game)
+            : id ? "./?title=" + encodeURIComponent(id)
+            : "./";
+        location.replace(target);
+    })();
+</script>
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#05070f;color:#b8c1dc;font:16px/1.5 system-ui,sans-serif}a{color:#78a4ff}</style>
 </head>
-
-
 <body>
-
-
-<header>
-
-<h1>Brian's Media Archive</h1>
-
-</header>
-
-
-<main>
-
-<section id="details">
-
-</section>
-
-
-</main>
-
-
-<script src="js/details.js"></script>
-
-
+<p>Taking you to the title… <a href="./">Open the archive</a></p>
 </body>
-
 </html>

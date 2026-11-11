@@ -1,0 +1,96 @@
+[
+{
+"id":"mcu",
+"title":"Marvel Cinematic Universe",
+"blurb":"Every MCU movie and series in the archive, ranked.",
+"ids":["iron-man","the-incredible-hulk","iron-man-2","thor","captain-america-the-first-avenger","the-avengers","iron-man-3","thor-the-dark-world","captain-america-winter-soldier","guardians-of-the-galaxy","avengers-age-of-ultron","ant-man","captain-america-civil-war","doctor-strange","guardians-of-the-galaxy-vol-2","spiderman-homecoming","thor-ragnarok","black-panther","avengers-infinity-war","ant-man-and-the-wasp","captain-marvel","avengers-endgame","spiderman-far-from-home","black-widow","shang-chi","eternals","spider-man-no-way-home","doctor-strange-multiverse-of-madness","thor-love-and-thunder","black-panther-wakanda-forever","ant-man-and-the-wasp-quantumania","guardians-of-the-galaxy-vol-3","deadpool-and-wolverine","captain-america-brave-new-world","thunderbolts","the-fantastic-four-first-steps","spider-man-brand-new-day","loki","wandavision","the-falcon-and-the-winter-soldier","hawkeye","moon-knight","what-if"]
+},
+
+{
+"id":"star-wars",
+"title":"Star Wars",
+"blurb":"The Skywalker Saga, the spin-offs, and the shows.",
+"match":["Star Wars"],
+"ids":["the-mandalorian","book-of-boba-fett","obi-wan-kenobi","andor"]
+},
+
+{
+"id":"spider-man",
+"title":"Spider-Man",
+"blurb":"Raimi, Webb, Watts, the Spider-Verse, and Venom.",
+"match":["Spider-Man","Venom"],
+"kinds":["movie","show"]
+},
+
+{
+"id":"x-men",
+"title":"X-Men",
+"blurb":"The mutant movies, from X-Men to Deadpool & Wolverine.",
+"match":["X-Men","X2","Wolverine","Deadpool"],
+"ids":["logan","dark-phoenix","the-new-mutants"]
+},
+
+{
+"id":"dc",
+"title":"DC",
+"blurb":"Batman, Superman, the Joker, and the rest of DC on screen.",
+"ids":["batman-begins","the-dark-knight","the-dark-knight-rises","man-of-steel","batman-v-superman","batman-the-killing-joke","aquaman","the-suicide-squad","joker","the-batman","joker-folie-a-deux","superman-2025","supergirl-2026"]
+},
+
+{
+"id":"transformers",
+"title":"Transformers",
+"blurb":"Robots in disguise, from the 1984 cartoon to Transformers One.",
+"match":["Transformers"],
+"ids":["bumblebee"]
+},
+
+{
+"id":"anime",
+"title":"Anime",
+"blurb":"Series and films from Japanese animation.",
+"ids":["attack-on-titan","attack-on-titan-the-last-attack","monster","hunter-x-hunter","fullmetal-alchemist-brotherhood","death-note","steins-gate","steins-gate-0","vinland-saga","code-geass","cyberpunk-edgerunners","dr-stone","jojos-bizarre-adventure","spirited-away"]
+},
+
+{
+"id":"harry-potter",
+"title":"Harry Potter",
+"blurb":"All eight films, ranked.",
+"match":["Harry Potter"]
+},
+
+{
+"id":"middle-earth",
+"title":"The Lord of the Rings",
+"blurb":"The extended editions, ranked.",
+"match":["The Lord of the Rings"]
+},
+
+{
+"id":"hunger-games",
+"title":"The Hunger Games",
+"blurb":"Panem, from the first reaping to Mockingjay.",
+"match":["The Hunger Games"]
+},
+
+{
+"id":"tmnt",
+"title":"Teenage Mutant Ninja Turtles",
+"blurb":"Movies and the 2012 series.",
+"match":["Teenage Mutant Ninja Turtles"]
+},
+
+{
+"id":"breaking-bad",
+"title":"Breaking Bad Universe",
+"blurb":"Walter White, Jesse Pinkman, and Saul Goodman.",
+"ids":["breaking-bad","better-call-saul","el-camino-breaking-bad"]
+},
+
+{
+"id":"sonic",
+"title":"Sonic the Hedgehog",
+"blurb":"The live-action trilogy.",
+"match":["Sonic the Hedgehog"]
+}
+]

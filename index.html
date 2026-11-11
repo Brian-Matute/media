@@ -1,140 +1,130 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Brian's Media Archive</title>
-
+<meta name="description" content="Every movie, show, and game Brian has watched or played, scored out of 100 and ranked from S tier to F.">
+<meta name="theme-color" content="#05070f">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Brian's Media Archive">
+<meta property="og:description" content="Movies, shows, games, and stories worth remembering.">
+<meta property="og:image" content="https://brian-matute.github.io/media/images/brand/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="images/brand/icon.svg" type="image/svg+xml">
+<link rel="icon" href="images/brand/icon-512.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="images/brand/icon-512.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Inter:opsz,wght@14..32,400..800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-
+<link rel="modulepreload" href="js/main.js">
+<script>document.documentElement.classList.add("js");</script>
 </head>
-
-
 <body>
 
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="grain" aria-hidden="true"></div>
 
-<header>
+<header class="topbar" id="topbar">
+    <div class="topbar__inner">
+        <a class="brand" href="./" aria-label="Brian's Media Archive, home">
+            <img class="brand__sig" src="images/brand/signature-white.svg" alt="" width="40" height="30">
+            <span class="brand__name">Media <span>Archive</span></span>
+        </a>
 
-<h1>Brian's Media Archive</h1>
+        <nav class="mainnav" aria-label="Main">
+            <a href="./" data-nav="home">Home</a>
+            <a href="./?view=library" data-nav="library">Library</a>
+            <a href="./?view=tiers" data-nav="tiers">Tier List</a>
+            <a href="./?view=collections" data-nav="collections">Collections</a>
+            <a href="./?view=stats" data-nav="stats">Stats</a>
+            <span class="seg__thumb" aria-hidden="true"></span>
+        </nav>
 
-<p>Movies, shows, and stories worth remembering.</p>
-
+        <button class="search-trigger" type="button" data-open-search aria-label="Search the archive">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.2-4.2"/></svg>
+            <span>Search</span>
+            <kbd data-kbd>Ctrl K</kbd>
+        </button>
+    </div>
 </header>
 
+<main id="main" tabindex="-1"></main>
 
-
-
-<main>
-
-
-<div class="controls">
-
-<input 
-type="text"
-id="searchBar" 
-placeholder="Search movies and shows...">
-
-
-<select id="typeFilter">
-
-<option value="all">
-All Media
-</option>
-
-<option value="Movie">
-Movies
-</option>
-
-<option value="Show">
-Shows
-</option>
-
-</select>
-
-
-
-<select id="sortFilter">
-
-<option value="default">
-Sort By
-</option>
-
-<option value="titleAZ">
-Title A-Z
-</option>
-
-<option value="titleZA">
-Title Z-A
-</option>
-
-<option value="ratingHigh">
-Highest Rated
-</option>
-
-<option value="ratingLow">
-Lowest Rated
-</option>
-
-<option value="yearNew">
-Newest Release
-</option>
-
-<option value="yearOld">
-Oldest Release
-</option>
-
-<option value="tier">
-Tier Ranking
-</option>
-
-</select>
-
-
-</div>
-
-
-
-
-<section id="media-grid">
-
-
-</section>
-
-
-
-
-</main>
-
-
-
-
-
-<footer>
-
-<p>
-Movie and television artwork, logos, and titles displayed on this site belong to their respective copyright holders. Images are used for informational, archival, and review purposes only. This website is a personal media archive and is not affiliated with or endorsed by any studio, network, or distributor.
-</p>
-
-
-<p>
-© 2026 Brian's Media Archive
-</p>
-
-
+<footer class="site-footer">
+    <div class="site-footer__inner">
+        <div>
+            <img class="site-footer__sig" src="images/brand/signature-white.svg" alt="Brian's signature" width="120" height="89" loading="lazy">
+            <p class="site-footer__tag">Movies, shows, games, and stories worth remembering.</p>
+        </div>
+        <nav class="site-footer__links" aria-label="Footer">
+            <a href="./">Home</a>
+            <a href="./?view=library">Library</a>
+            <a href="./?view=tiers">Tier List</a>
+            <a href="./?view=collections">Collections</a>
+            <a href="./?view=stats">Stats</a>
+            <a href="add.html">Entry builder</a>
+        </nav>
+        <p class="site-footer__legal">Movie, television, and video game artwork, logos, and titles shown on this site belong to their respective copyright holders and are used for informational, archival, and review purposes only. This is a personal media archive and isn't affiliated with or endorsed by any studio, network, publisher, or distributor. © 2026 Brian's Media Archive.</p>
+    </div>
 </footer>
 
+<nav class="tabbar" aria-label="Main">
+    <a href="./" data-nav="home">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 10.5 12 3.5l8.5 7"/><path d="M5.5 9v11.5h13V9"/><path d="M10 20.5v-6h4v6"/></svg>
+        Home
+    </a>
+    <a href="./?view=library" data-nav="library">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.6"/></svg>
+        Library
+    </a>
+    <a href="./?view=tiers" data-nav="tiers">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5h16"/><path d="M4 10.5h12"/><path d="M4 15.5h8"/><path d="M4 20.5h4"/></svg>
+        Tiers
+    </a>
+    <a href="./?view=collections" data-nav="collections">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="7.5" width="13" height="13" rx="2"/><path d="M7.5 4h11a2 2 0 0 1 2 2v11"/></svg>
+        Collections
+    </a>
+    <a href="./?view=stats" data-nav="stats">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5h17"/><path d="M7 16.5v-5"/><path d="M12 16.5v-12"/><path d="M17 16.5V9"/></svg>
+        Stats
+    </a>
+</nav>
 
+<div class="palette" id="palette" hidden>
+    <div class="palette__backdrop" data-close></div>
+    <div class="palette__panel" role="dialog" aria-modal="true" aria-label="Search the archive">
+        <div class="palette__field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.2-4.2"/></svg>
+            <input class="palette__input" type="search" placeholder="Search titles, people, genres, collections…" role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list" aria-label="Search" autocomplete="off" spellcheck="false">
+            <button class="icon-btn" type="button" data-close aria-label="Close search">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+        </div>
+        <ul class="palette__list" id="palette-list" role="listbox" aria-label="Results"></ul>
+        <div class="palette__foot" aria-hidden="true">
+            <span><kbd>↑</kbd><kbd>↓</kbd>to move</span>
+            <span><kbd>Enter</kbd>to open</span>
+            <span><kbd>Esc</kbd>to close</span>
+        </div>
+    </div>
+</div>
 
+<div class="toast" id="toast" role="status" aria-live="polite">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6.5 9 17.5l-5-5"/></svg>
+    <span data-toast-text></span>
+</div>
 
+<div class="tooltip" id="tooltip" role="tooltip" hidden></div>
 
-<script src="js/app.js"></script>
+<button class="to-top" id="toTop" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m6 11 6-6 6 6"/></svg>
+</button>
 
-
+<script type="module" src="js/main.js"></script>
 </body>
-
 </html>
