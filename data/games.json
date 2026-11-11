@@ -126,4 +126,22 @@
 "cover":"",
 "review":""
 }
+,
+
+{
+"id":"the-legend-of-zelda-breath-of-the-wild",
+"title":"The Legend of Zelda: Breath of the Wild",
+"year":"2017",
+"rating":"99",
+"tier":"S",
+"genre":"Open World",
+"platform":"Nintendo Switch",
+"developer":"Nintendo",
+"status":"100%",
+"hours":"",
+"dateCompleted":"",
+"cover":"botw.jpeg",
+"review":"",
+"link":"https://www.ign.com/games/the-legend-of-zelda-breath-of-the-wild"
+}
 ]
