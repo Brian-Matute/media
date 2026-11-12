@@ -7,6 +7,9 @@ import { TIERS, KINDS, SORTS, sortItems, countBy, normalizeText } from "../data.
 import { esc, icon, img, card, tierBadge, segmented, emptyState, plural, kindMeta, gamesNote } from "../ui.js";
 import { setPressed } from "../fx.js";
 
+// The library opens sorted best-first; "My order" is still in the sort menu
+const DEFAULT_SORT = "ratingHigh";
+
 const SECTIONS = [
     { value: "all", label: "All" },
     { value: "movie", label: "Movies" },
@@ -25,7 +28,7 @@ function readState(p) {
         creator: p.get("creator") || "",
         decade: /^\d{4}$/.test(decade || "") ? Number(decade) : null,
         tiers: new Set((p.get("tier") || "").toUpperCase().split("").filter(t => TIERS.includes(t))),
-        sort: SORTS[p.get("sort")] ? p.get("sort") : "default",
+        sort: SORTS[p.get("sort")] ? p.get("sort") : DEFAULT_SORT,
         layout: p.get("layout") === "list" ? "list" : "grid"
     };
 }
@@ -40,7 +43,7 @@ function toParams(st) {
     if (st.creator) p.set("creator", st.creator);
     if (st.decade != null) p.set("decade", String(st.decade));
     if (st.tiers.size) p.set("tier", TIERS.filter(t => st.tiers.has(t)).join(""));
-    if (st.sort !== "default") p.set("sort", st.sort);
+    if (st.sort !== DEFAULT_SORT) p.set("sort", st.sort);
     if (st.layout !== "grid") p.set("layout", st.layout);
     return p;
 }
@@ -238,7 +241,7 @@ export default function library(route, archive, app) {
             fill(status, st.s === "game" ? "Any status" : "Any progress", statusEntries, st.status);
             fill(platform, "All platforms", st.s === "game" ? countBy(base, i => i.platform) : [], st.platform);
             sort.value = st.sort;
-            sort.classList.toggle("is-set", st.sort !== "default");
+            sort.classList.toggle("is-set", st.sort !== DEFAULT_SORT);
         };
 
         const renderPills = () => {
@@ -318,7 +321,7 @@ export default function library(route, archive, app) {
         genre.addEventListener("change", () => { st.genre = genre.value; genre.classList.toggle("is-set", Boolean(st.genre)); update(); });
         status.addEventListener("change", () => { st.status = status.value; status.classList.toggle("is-set", Boolean(st.status)); update(); });
         platform.addEventListener("change", () => { st.platform = platform.value; platform.classList.toggle("is-set", Boolean(st.platform)); update(); });
-        sort.addEventListener("change", () => { st.sort = sort.value; sort.classList.toggle("is-set", st.sort !== "default"); update(); });
+        sort.addEventListener("change", () => { st.sort = sort.value; sort.classList.toggle("is-set", st.sort !== DEFAULT_SORT); update(); });
 
         root.querySelector(".tier-toggles").addEventListener("click", e => {
             const b = e.target.closest("[data-tier]");
